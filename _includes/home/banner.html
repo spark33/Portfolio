@@ -2,27 +2,31 @@
 	<div id="home-banner-slider">
 		<div id="banner-slider-slides">
 			{% for project in site.data.project_list.projects %}
-				<div class="home-banner-slide">
-					<div class="banner-slide-background"></div>
-					<div class="banner-slide-content">
-						<div class="banner-slide-text">
-							<h2>
-								{{ project.subtitle }}
-							</h2>
-							<p>
-								{{ project.question }}
-							</p>
-						</div>
-						<div class="banner-slide-image">
-							<img src="{{ site.baseurl }}/img/{{ project.name }}.png" />
+				{% if project.featured == true %}
+					<div class="home-banner-slide">
+						<div class="banner-slide-background"></div>
+						<div class="banner-slide-content">
+							<div class="banner-slide-text">
+								<h2>
+									{{ project.subtitle }}
+								</h2>
+								<p>
+									{{ project.question }}
+								</p>
+							</div>
+							<div class="banner-slide-image">
+								<img src="{{ site.baseurl }}/img/{{ project.name }}.png" />
+							</div>
 						</div>
 					</div>
-				</div>
+				{% endif %}
 			{% endfor %}
 		</div>
 		<div id="home-banner-slider-dots">
 			{% for project in site.data.project_list.projects %}
-				<div class="slider-dot"></div>
+				{% if project.featured == true %}
+					<div class="slider-dot"></div>
+				{% endif %}
 			{% endfor %}
 		</div>
 	</div>

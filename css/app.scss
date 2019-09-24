@@ -1,9 +1,16 @@
 ---
 ---
 
+@import 'variables.scss';
+
 body {
 	margin: 0;
 	font-family: 'Lato';
+	color: $text-grey;
+}
+
+main {
+	margin-bottom: 20vh;
 }
 
 a {
@@ -28,3 +35,4 @@ img {
 @import 'text.css';
 @import 'nav.css';
 @import 'home.css';
+@import 'projects.css';
