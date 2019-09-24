@@ -1,0 +1,91 @@
+---
+---
+
+@import 'variables.scss';
+
+#home-banner {
+	min-height: 80vh;
+	padding: 15vh 0;
+
+	.home-banner-content {
+		display: flex;
+		min-height: 100%;
+		width: 80vw;
+		margin: 0 auto;
+		position: relative;
+
+		.banner-slider-text {
+			display: flex;
+			flex: 1 0 0;
+			flex-direction: column;
+			justify-content: center;
+			padding-right: 2vw;
+			width: 50%;
+		}
+
+		.banner-slider-image {
+			flex: 1 0 0;
+			
+			img {
+				width: 100%;
+				margin: 0 auto;
+			}
+		}
+
+		.banner-slider-background {
+			z-index: -1;
+			position: absolute;
+			left: 15%;
+			top: -25%;
+			width: 70%;
+			height: 150%;
+			background: $blue;
+			opacity: 0.2;
+		}
+	}
+}
+
+#home-callout {
+
+	padding: 15vh 6vw;
+	background: $blue;
+	color: white;
+	background-image: url('../img/pattern.png');
+	margin-bottom: 10vh;
+
+	.line-divider {
+		background: white;
+	}
+
+	h1 {
+		font-size: 5vw;
+	}
+
+	span {
+		padding-bottom: 8px;
+		border-bottom: 6px solid white;
+	}
+
+	p {
+		width: 80%;
+	}
+}
+
+#home-frameworks-intro {
+	display: flex;
+	width: 80%;
+	margin: 0 auto;
+
+	.line-divider {
+		background: $blue;
+	}
+
+	#home-frameworks-intro-image {
+		flex: 3 0 0;
+		margin-right: 10vw;
+	}
+
+	#home-frameworks-intro-text {
+		flex: 5 0 0;
+	}
+}
