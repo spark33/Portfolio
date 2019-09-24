@@ -1,16 +1,29 @@
 <section id="home-banner">
-	<div class="home-banner-content">
-		<div class="banner-slider-background"></div>
-		<div class="banner-slider-text">
-			<h2>
-				Website still in development.
-			</h2>
-			<p>
-				Check out the intended design on <a href="https://www.figma.com/file/YclwheQVrP6bc5xES6LHp6/v3?node-id=0%3A1" target="_blank">Figma</a>.
-			</p>
+	<div id="home-banner-slider">
+		<div id="banner-slider-slides">
+			{% for project in site.data.project_list.projects %}
+				<div class="home-banner-slide">
+					<div class="banner-slide-background"></div>
+					<div class="banner-slide-content">
+						<div class="banner-slide-text">
+							<h2>
+								{{ project.subtitle }}
+							</h2>
+							<p>
+								{{ project.question }}
+							</p>
+						</div>
+						<div class="banner-slide-image">
+							<img src="{{ site.baseurl }}/img/{{ project.name }}.png" />
+						</div>
+					</div>
+				</div>
+			{% endfor %}
 		</div>
-		<div class="banner-slider-image">
-			<img src="{{ site.baseurl }}/img/home_slider/higher.png" />
+		<div id="home-banner-slider-dots">
+			{% for project in site.data.project_list.projects %}
+				<div class="slider-dot"></div>
+			{% endfor %}
 		</div>
 	</div>
 </section>

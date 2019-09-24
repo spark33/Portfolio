@@ -6,7 +6,12 @@ header {
 	justify-content: space-between;
 	padding: 5vh 3vw;
 
+	#logo {
+		border: none;
+	}
+
 	nav {
+
 		a {
 			margin: 0 2vw;
 		}
