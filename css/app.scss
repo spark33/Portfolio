@@ -1,23 +1,25 @@
 ---
 ---
 
-/*
-*******
-None of these variable are being imported anywhere, they're just here for your convenience.
-*******
-*/
+// Some Style Variables
+$blue: #2987ED;
+$dark-grey: #4A4A4A;
+$error-red: #de3535;
+$success-green: #d5f5d7;
+$breakpoint: 960px;
+
 
 body {
 	margin: 0;
 	font-family: 'Lato';
 }
 
-// Some Style Variables
-$error: #de3535;
-$success: #d5f5d7;
-
-$blue: #2987ED;
-
-$breakpoint: 960px;
+a {
+	color: inherit;
+	text-decoration: none;
+	padding-bottom: 3px;
+	border-bottom: 2px solid currentColor;
+}
 
 @import 'text.css';
+@import 'nav.css';
