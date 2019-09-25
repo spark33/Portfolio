@@ -8,12 +8,15 @@ header {
 
 	#logo {
 		border: none;
+		height: 40px;
+		padding: 0;
 	}
 
 	nav {
 
 		a {
 			margin: 0 2vw;
+			line-height: 40px;
 		}
 	}
 }

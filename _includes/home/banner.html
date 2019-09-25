@@ -1,7 +1,7 @@
 <section id="home-banner">
 	<div id="home-banner-slider">
 		<div id="banner-slider-slides">
-			{% for project in site.data.project_list.projects %}
+			{% for project in site.projects %}
 				{% if project.featured == true %}
 					<div class="home-banner-slide">
 						<div class="banner-slide-background"></div>

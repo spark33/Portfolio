@@ -16,19 +16,19 @@
 	.project-header-info {
 		flex: 1 0 0;
 		align-self: flex-end;
-		padding: 10vh 5vw;
+		padding: 10vh 5vw 5vh 3vw;
 	}
 
 	.project-header-image {
 		position: relative;
-		flex: 3 0 0;
+		flex: 4 0 0;
 		overflow: hidden;
 
 		img {
 			position: absolute;
 			top: 10vh;
 			right: 0;
-			max-width: 80%;
+			max-width: 100%;
 		}
 	}
 }
