@@ -8,10 +8,11 @@
 	</div>
 
 	<div id="project-grid">
-		{% for project in site.data.project_list.projects %}
+		{% for project in site.projects %}
 			<div class="project-card" style="background: #{{ project.color }};">
 				<h3>{{ project.name }}</h3>
 				<p>{{ project.question }}</p>
+				<a href="{{ project.url }}">Link</a>
 			</div>
 		{% endfor %}
 	</div>
