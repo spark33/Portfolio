@@ -11,6 +11,23 @@
 		width: 100vw;
 		overflow-x: hidden;
 		margin-bottom: 10vh;
+		position: relative;
+
+		#home-banner-next-button {
+			position: absolute;
+			top: 40%;
+			right: 5%;
+			font-size: 4vw;
+			border: none;
+			color: $light-grey;
+			font-weight: 100;
+			@include transition(0.3s);
+
+			&:hover {
+				color: $text-grey;
+				font-weight: 800;
+			}
+		}
 
 		#banner-slider-slides {
 			width: 300vw; 
