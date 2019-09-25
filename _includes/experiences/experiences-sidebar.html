@@ -1,0 +1,11 @@
+<div id="experiences-sidebar">
+	<ul>
+		{% for experience in site.experiences %}
+			<a href="{{ experience.url }}">
+				<li class="experience-sidebar-link {% if experience.name == page.name %} active {% endif %}">
+					{{ experience.name }}		
+				</li>
+			</a>
+		{% endfor %}
+	</ul>
+</div>

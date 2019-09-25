@@ -23,7 +23,7 @@
 			{% endfor %}
 		</div>
 		<div id="home-banner-slider-dots">
-			{% for project in site.data.project_list.projects %}
+			{% for project in site.projects %}
 				{% if project.featured == true %}
 					<div class="slider-dot"></div>
 				{% endif %}

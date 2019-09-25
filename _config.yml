@@ -10,3 +10,14 @@ exclude: [.scss, README.md, node_modules, gruntfile.js, package.json]
 collections:
   projects:
     output: true
+  experiences:
+    sort_by: start_year
+    output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "experiences"
+    values:
+      layout: "experience"

@@ -1,0 +1,60 @@
+---
+---
+
+@import 'variables.scss';
+
+.experience-main {
+	padding: 10vh 5vw;
+
+	.line-divider {
+		background: $blue;
+	}
+
+	#experiences {
+		display: flex;
+
+		#experiences-sidebar {
+			flex: 1 0 0;
+			text-align: right;
+			padding-right: 5vw;
+
+			ul {
+				padding: 0.1vh 0;
+				list-style: none;
+				border-right: 1px solid $light-grey;
+
+				li {
+					margin: 5vh 0;
+					padding-right: 3vw;
+					position: relative;
+					color: $text-light-grey;
+
+					&.active {
+						font-weight: 800;
+						color: $text-grey;
+
+						&:after {
+							content: '';
+							height: 150%;
+							width: 6px;
+							background: $blue;
+							position: absolute;
+							top: -25%;
+							left: calc(100% - 3px);
+						}
+					}
+				
+				}
+			}
+		}
+
+		#experiences-body {
+			flex: 3 0 0;
+		}
+	}
+
+	#projects {
+		padding: 0;
+		margin-top: 20vh;
+	}
+}

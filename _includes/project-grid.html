@@ -3,16 +3,21 @@
 	<div id="projects-intro">
 		<h2>Projects</h2>
 		<p>
-			I’ve worked flexibly on projects with various roles. I’ve tried to fight the notion that having breadth means being a master of none. Check out my past projects for a glimpse of my artifacts and work processes. For a higher level overview, check out my <a href="{{ site.baseurl }}/resume.pdf" target="_blank">resume</a>. For my past work experiences, check out my <a href="{{ site.baseurl }}/past_works.html">Past Works</a> page.
+			I’ve worked flexibly on projects with various roles. I’ve tried to fight the notion that having breadth means being a master of none. Check out my past projects for a glimpse of my artifacts and work processes. For a higher level overview, check out my <a href="{{ site.baseurl }}/resume.pdf" target="_blank">resume</a>. For my past work experiences, check out my <a href="{{ site.experiences.first.url }}">Past Works</a> page.
 		</p>
 	</div>
 
 	<div id="project-grid">
 		{% for project in site.projects %}
-			<div class="project-card" style="background: #{{ project.color }};">
-				<h3>{{ project.name }}</h3>
-				<p>{{ project.question }}</p>
-				<a href="{{ project.url }}">Link</a>
+			<div class="project-card">
+				<div class="project-card-default">
+					<img src="{{ site.baseurl }}/img/{{ project.name }}-grid.png" />
+				</div>
+				<div class="project-card-hover">
+					<h3>{{ project.name }}</h3>
+					<p>{{ project.question }}</p>
+					<a href="{{ project.url }}">Link</a>
+				</div>
 			</div>
 		{% endfor %}
 	</div>
