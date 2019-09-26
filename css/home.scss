@@ -3,8 +3,12 @@
 
 @import 'variables.scss';
 
+#home-header {
+	padding-bottom: 0;
+}
+
 #home-banner {
-	min-height: 70vh;
+	transform: scale(0.9);
 
 	#home-banner-slider {
 		display: inline-block;
@@ -112,7 +116,8 @@
 	}
 
 	h1 {
-		font-size: 5vw;
+		font-size: 4.2vw;
+		margin-bottom: 10vh;
 	}
 
 	span {
@@ -122,6 +127,7 @@
 
 	p {
 		width: 80%;
+		font-size: 1.8vw;
 	}
 }
 
@@ -134,6 +140,10 @@
 
 	.line-divider {
 		background: $blue;
+	}
+
+	h2 {
+		margin-left: -3px;
 	}
 
 	#home-frameworks-intro-image {

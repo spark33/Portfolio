@@ -11,7 +11,7 @@ collections:
   projects:
     output: true
   experiences:
-    sort_by: start_year
+    sort_by: "order"
     output: true
 
 defaults:

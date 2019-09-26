@@ -1,11 +1,14 @@
 <div id="experiences-sidebar">
-	<ul>
-		{% for experience in site.experiences %}
+	<ul id="experience-list">
+		{% assign experiences = site.experiences | sort: "order" %}
+		{% for experience in experiences %}
 			<a href="{{ experience.url }}">
 				<li class="experience-sidebar-link {% if experience.name == page.name %} active {% endif %}">
-					{{ experience.name }}		
+					<small>{{ experience.time }}</small>
+					<h5>{{ experience.name }}</h5>		
 				</li>
 			</a>
 		{% endfor %}
 	</ul>
+	<a href="#projects-section">View Projects ↓</a>
 </div>

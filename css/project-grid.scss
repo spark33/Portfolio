@@ -3,7 +3,7 @@
 
 @import 'variables.scss';
 
-#projects {
+#projects-section {
 	padding: 5vh 10vw;
 
 	.line-divider {
@@ -12,6 +12,11 @@
 
 	#projects-intro {
 		margin-bottom: 10vh;
+
+		h2 {
+			margin-left: -3px;
+		}
+		
 		a {
 			font-weight: bolder;
 			color: black;
@@ -43,11 +48,11 @@
 				top: 0;
 				left: 0;
 				opacity: 0;
-				background: rgba(0,0,0,0.5);
+				background: rgba(0,0,0,0.8);
 				color: white; 
 				padding: 10% 10%;
 				box-sizing: border-box;
-				@include transition(0.5s);
+				@include transition(0.4s);
 			}
 
 			&:hover > .project-card-hover {

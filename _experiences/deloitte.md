@@ -1,9 +1,14 @@
 ---
 name: Deloitte
-subtitle: Designing the job applications of the future.
-question: How can large-scale decision making optimize the candidate selection process?
-description: Test description deloitte
-start_year: 2018
+order: 1
+time: Summer 2018, Sept 2019 - 
 ---
 
-<h1>At Deloitte, ...</h1>
+### I am looking to specialize in delivering digital user experiences through UX design and full-stack development at Deloitte.
+
+![Team at Deloitte University](/img/Deloitte.jpg)
+
+After spending a summer as a Summer Scholar (or intern), I joined Deloitte in September 2019. I am currently completing training and my Salesforce certification exam, but I would be happy to answer any questions about the firm, last year's project or the Summer Scholar program!
+
+- **Home Office**: Chicago
+- **Alignment**: Customer & Marketing
