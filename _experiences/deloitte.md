@@ -2,6 +2,7 @@
 name: Deloitte
 order: 1
 time: Summer 2018, Sept 2019 - 
+type: experience
 ---
 
 ### I am looking to specialize in delivering digital user experiences through UX design and full-stack development at Deloitte.

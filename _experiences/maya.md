@@ -2,6 +2,7 @@
 name: BCG Platinion
 order: 2
 time: Summer 2017
+type: experience
 ---
 
 ### I served 6 different clients at BCG Platinion (MAYA Design), working in software development, UX design and user research.
