@@ -12,14 +12,28 @@
 
 	#projects-intro {
 		margin-bottom: 10vh;
-
-		h2 {
-			margin-left: -3px;
-		}
-		
 		a {
 			font-weight: bolder;
 			color: black;
+		}
+	}
+
+	#project-filters {
+
+		margin-bottom: 5vh;
+
+		a {
+			border: 2px solid $blue;
+			border-radius: 0.5vw;
+			background: $blue;
+			color: white;
+			padding: 1vh 1vw;
+			margin-right: 1vw;
+
+			&.mixitup-control-active {
+				background: white;
+				color: $blue;
+			}
 		}
 	}
 

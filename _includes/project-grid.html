@@ -8,16 +8,23 @@
 		</p>
 	</div>
 
+	<div id="project-filters">
+		<a type="button" data-filter="all">All</a>
+		<a type="button" data-filter=".front-end">Front-End Development</a>
+		<a type="button" data-filter=".ux-design">UX Design</a>
+		<a type="button" data-filter=".digital-strategy">Digital Strategy</a>
+	</div>
+
 	<div id="project-grid">
 		{% for project in site.projects %}
-			<div class="project-card">
+			<div class="mix project-card {% for f in project.filters %} {{ f }} {% endfor %}" data-order="{{ project.order }}">
 				<div class="project-card-default">
 					<img src="{{ site.baseurl }}/img/{{ project.name }}-grid.png" />
 				</div>
 				<div class="project-card-hover">
 					<h3>{{ project.name }}</h3>
 					<p>{{ project.question }}</p>
-					<a href="{{ project.url }}">Link</a>
+					<a href="{{ project.url }}" target="_blank">Link</a>
 				</div>
 			</div>
 		{% endfor %}
