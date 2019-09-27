@@ -153,5 +153,17 @@
 
 	#home-frameworks-intro-text {
 		flex: 5 0 0;
+
+		#frameworks-coming-soon {
+			font-style: oblique;
+			color: $light-grey;
+
+			> a {
+				font-weight: 800;
+				color: $text-grey;
+				text-decoration: line-through;
+				margin-right: 1vw;
+			}
+		}
 	}
 }
