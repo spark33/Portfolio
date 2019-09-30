@@ -6,5 +6,17 @@
 		{% assign experiences = site.experiences | sort: "order" %}
 		<a href="{{ experiences.first.url }}">Past Work</a>
 		<a href="{{ site.baseurl }}/SeanPark_Resume.pdf" target="_blank">Resume</a>
+		<a class="nav-toggle nonhoverable">
+			☰
+		</a>
 	</nav>
 </header>
+
+<div id="mobile-nav-screen">
+	<a class="nav-toggle nonhoverable" href>
+		×
+	</a>
+	{% assign experiences = site.experiences | sort: "order" %}
+	<a href="{{ experiences.first.url }}">Past Work</a>
+	<a href="{{ site.baseurl }}/SeanPark_Resume.pdf" target="_blank">Resume</a>
+</div>

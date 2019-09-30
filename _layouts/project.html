@@ -17,12 +17,16 @@
 		{% include project/header.html %}
 		
 		<main id="{{ page.title }}-main" class="project-main">
-			<div class="project-sidebar">
-				{% include project/project-sidebar.html %}
+			<div class="project-content">
+				<div class="project-sidebar">
+					{% include project/project-sidebar.html %}
+				</div>
+				<div class="project-main-body">
+					{{ content }}
+				</div>
 			</div>
-			<div class="project-main-body">
-				{{ content }}
-			</div>
+			{% include project-grid.html %}
+
 		</main>
 		
 	{% include footer.html %}

@@ -1,13 +1,14 @@
 ---
 ---
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import 'variables.scss';
 
 h1 {
-	font-size: 4vw;
+	font-size: calc(30px + 5vw);
 }
 
 h2 {
-	font-size: 3.2vw;
+	font-size: calc(20px + 2vw);
 	line-height: 5vw;
 	font-weight: 900;
 }
@@ -18,9 +19,42 @@ h3 {
 
 p, li {
 	line-height: 8vh;
-	font-size: 1.3vw;
+	font-size: calc(0.2em + 1vw);
 }
 
 ul {
 	margin-bottom: 10vh;
+	padding-left: 3em;
+}
+
+
+@media screen and (max-width: $breakpoint) {
+	h1 {
+		font-size: 3em;
+	}
+
+	h2 {
+		font-size: 2.7em;
+		line-height: 1.5em;
+	}
+
+	h3 {
+		font-size: 2.025em;
+	}
+
+	h4, h5 {
+		font-size: 1.52em;
+	}
+
+	h6 {
+		font-size: 1.14em;
+	}
+
+	p,a,li {
+		font-size: 1em;
+	}
+
+	small {
+		font-size: 0.8em;
+	}
 }

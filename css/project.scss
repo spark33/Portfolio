@@ -35,24 +35,36 @@
 
 .project-main {
 
-	display: flex;
-	padding-top: 15vh;
+	.project-content {
+		display: flex;
+		padding-top: 15vh;
+		
+		.project-sidebar {
+			flex: 1 0 0;
+			text-align: right;
 
-	.project-sidebar {
-		flex: 1 0 0;
-		text-align: right;
+			:first-child {
+				margin-top: 5px;
+			}
+		}
 
-		:first-child {
-			margin-top: 5px;
+		.project-main-body {
+			flex: 4 0 0;
+			padding-left: 5vw;
+
+			:first-child {
+				margin-top: 0;
+			}
 		}
 	}
+}
 
-	.project-main-body {
-		flex: 4 0 0;
-		padding-left: 5vw;
+@media screen and (max-width: $breakpoint) {
+	#projects-section {
+		padding: 20px;
 
-		:first-child {
-			margin-top: 0;
+		.line-divider {
+			margin-left: 20px;
 		}
 	}
 }

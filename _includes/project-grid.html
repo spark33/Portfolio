@@ -10,22 +10,23 @@
 
 	<div id="project-filters">
 		<a type="button" data-filter="all">All</a>
-		<a type="button" data-filter=".front-end">Front-End Development</a>
+		<a type="button" data-filter=".software-development">Software Development</a>
 		<a type="button" data-filter=".ux-design">UX Design</a>
 		<a type="button" data-filter=".digital-strategy">Digital Strategy</a>
 	</div>
 
 	<div id="project-grid">
-		{% for project in site.projects %}
+		{% assign projects = site.projects | sort: 'order' %}
+		{% for project in projects %}
 			<div class="mix project-card {% for f in project.filters %} {{ f }} {% endfor %}" data-order="{{ project.order }}">
-				<div class="project-card-default">
-					<img src="{{ site.baseurl }}/img/{{ project.name }}-grid.png" />
-				</div>
-				<a class="project-card-hover" href="{{ project.url }}">
-					<div>
-						<h3>{{ project.name }}</h3>
-						<p>{{ project.question }}</p>
+				<div class="project-card-default" style="background: #{{ project.color }};">
+					<div class="imgwrap">
+						<img src="{{ site.baseurl }}/img/{{ project.name }}-grid.png" />
 					</div>
+				</div>
+				<a class="project-card-hover" {% if project.finished %} href='{{ project.url }}' {% endif %}>
+					<h3>{{ project.name }}</h3>
+					<p>{{ project.question }}</p>
 				</a>
 			</div>
 		{% endfor %}

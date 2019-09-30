@@ -1,0 +1,93 @@
+---
+---
+
+@import 'variables.scss';
+
+.slider {
+	display: inline-block;
+	width: 100vw;
+	overflow-x: hidden;
+	margin-bottom: 10vh;
+	position: relative;
+
+	.slides {
+		flex-direction: row;
+	}
+
+	.slider-next-button, .slider-prev-button {
+		position: absolute;
+		top: 40%;
+		font-size: 4vw;
+		border: none;
+		color: $light-grey;
+		font-weight: 100;
+		@include transition(0.3s);
+
+		&:hover {
+			color: $text-grey;
+			font-weight: 800;
+		}
+	}
+
+	.slider-prev-button {
+		left: 5%;
+	}
+
+	.slider-next-button {
+		right: 5%;
+	}
+
+	.slides {
+		display: flex;
+		align-items: stretch;
+		@include transition(0.5s);
+
+		.slide {
+			display: flex;
+			align-self: stretch;
+			width: 100vw;
+			height: 100%;
+			position: relative;
+		}
+	}
+
+	.slider-dots {
+		display: flex;
+		justify-content: center;
+		padding: 10px 0;
+
+		.slider-dot {
+			margin: 5px 10px;
+			border-radius: 50%;
+			width: 10px;
+			height: 10px;
+			background: $light-grey;
+
+			&.active {
+				background: $dark-grey;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: $breakpoint) {
+	.slider {
+		.slider-dots {
+			flex-direction: row;
+			.slider-dot {
+				padding: 0;
+			}
+		}
+
+		.slider-prev-button {
+			font-size: 40px;
+			color: $text-grey;
+		}
+
+		.slider-next-button {
+			font-size: 40px;
+			color: $text-grey;
+		}
+
+	}
+}

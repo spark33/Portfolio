@@ -1,6 +1,12 @@
 ---
 ---
 
+@import 'variables.scss';
+
+body.nav-open { // don't scroll when the mobile nav is open
+	overflow: hidden;
+}
+
 header {
 	display: flex;
 	justify-content: space-between;
@@ -10,6 +16,7 @@ header {
 		border: none;
 		height: 40px;
 		padding: 0;
+		margin: 5px;
 	}
 
 	nav {
@@ -17,6 +24,70 @@ header {
 		a {
 			margin: 0 2vw;
 			line-height: 40px;
+		}
+	}
+
+	.nav-toggle {
+		display: none;
+		font-size: 35px;
+		margin: 5px;
+		border: none;
+		cursor: pointer;
+	}
+}
+
+#mobile-nav-screen {
+	// position
+	position: fixed;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	width: 100vw;
+	height: 0;
+	z-index: 999;
+
+	@include transition(0.5s);
+
+	// style
+	text-align: center;
+	padding: 3vw;
+	background: $blue;
+	color: white;
+	a {
+		font-size: 1.5em;
+		padding: 0;
+		list-style: none;
+		margin: 10vh 0;
+		display: block;
+		border: none;
+	}
+
+	// visibility
+	display: none;
+
+	&.visible {
+		display: block;
+		height: 100%;
+	}
+}
+
+@media screen and (max-width: $breakpoint) {
+	header {
+		padding: 10px;
+		nav > a:not(.nav-toggle) {
+			display: none;
+		}
+
+		.logo {
+			padding: 3px;
+			> img {
+				width: 60px;
+			}
+		}
+		
+		.nav-toggle {
+			display: flex;
+			line-height: 100%;
 		}
 	}
 }

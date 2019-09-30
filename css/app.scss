@@ -3,6 +3,10 @@
 
 @import 'variables.scss';
 
+* {
+	box-sizing: border-box;
+}
+
 body {
 	margin: 0;
 	font-family: 'Lato';
@@ -20,10 +24,6 @@ a {
 	border-bottom: 2px solid currentColor;
 }
 
-img {
-	max-width: 100%;
-}
-
 .line-divider {
 	border: none;
 	height: 8px;
@@ -34,8 +34,34 @@ img {
 
 @import 'text.css';
 @import 'nav.css';
+@import 'slider.css';
 @import 'home.css';
 @import 'project-grid.css';
 
 @import 'project.css';
 @import 'experiences.css';
+
+@media screen and (max-width: $breakpoint) {
+	
+	* {
+		box-sizing: border-box;
+		padding: 0;
+	}
+
+	.not-on-mobile {
+		display: none;
+	}
+
+	.full-width-on-mobile {
+		padding: 30px !important;
+		width: 100% !important;
+		margin: 0 !important;
+	}
+
+	section, div {
+		width: 100%;
+		padding: 20px;
+		margin: 0;
+		flex-direction: column;
+	}
+}

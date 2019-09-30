@@ -1,29 +1,32 @@
 <section id="home-banner">
-	<div id="home-banner-slider">
-		<div id="banner-slider-slides">
+	<div id="home-banner-slider" class="slider">
+		<div id="banner-slider-slides" class="slides">
 			{% for project in site.projects %}
 				{% if project.featured == true %}
-					<div class="home-banner-slide">
-						<div class="banner-slide-background"></div>
-						<div class="banner-slide-content">
-							<div class="banner-slide-text">
-								<h2>
-									{{ project.subtitle }}
-								</h2>
-								<p>
-									{{ project.question }}
-								</p>
-							</div>
-							<div class="banner-slide-image">
-								<img src="{{ site.baseurl }}/img/{{ project.name }}.png" />
+					<a href="{{ project.url }}">
+						<div class="home-banner-slide slide">
+							<div class="banner-slide-background" style="background: #{{ project.color }};"></div>
+							<div class="banner-slide-content">
+								<div class="banner-slide-text">
+									<h2>
+										{{ project.subtitle }}
+									</h2>
+									<p>
+										{{ project.question }}
+									</p>
+								</div>
+								<div class="banner-slide-image">
+									<img src="{{ site.baseurl }}/img/{{ project.name }}-banner.png" />
+								</div>
 							</div>
 						</div>
-					</div>
+					</a>
 				{% endif %}
 			{% endfor %}
 		</div>
-		<a href id="home-banner-next-button">></a>
-		<div id="home-banner-slider-dots">
+		<a href id="home-banner-prev-button" class="slider-prev-button"><</a>
+		<a href id="home-banner-next-button" class="slider-next-button">></a>
+		<div id="home-banner-slider-dots" class="slider-dots">
 			{% for project in site.projects %}
 				{% if project.featured == true %}
 					<div class="slider-dot"></div>
