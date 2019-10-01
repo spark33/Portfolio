@@ -131,86 +131,92 @@
 }
 
 @media screen and (max-width: $breakpoint) {
-	#home-banner {
-		padding: 0;
-
-		.slider {
+	#home-main {
+		#home-banner {
 			padding: 0;
 
-			.slides {
+			.slider {
 				padding: 0;
 
-				.slide {
+				.slides {
 					padding: 0;
 
-					.banner-slide-background {
-						width: 90%;
-						left: 5%;
-					}
+					.slide {
+						padding: 0;
 
-					.banner-slide-content{
-						flex-direction: column-reverse;
+						.banner-slide-background {
+							width: 90%;
+							left: 5%;
+						}
 
-						.banner-slide-image {
+						.banner-slide-content{
+							flex-direction: column-reverse;
 
-							position: unset;
-							
-							img {
+							.banner-slide-image {
+
 								position: unset;
-								transform: none;
-								width: 100%;
+								
+								img {
+									position: unset;
+									transform: none;
+									width: 100%;
+								}
 							}
 						}
 					}
 				}
 			}
 		}
-	}
 
 
-	#home-callout {
+		#home-callout {
 
-		h1 {
-			font-size: 3em;
-			margin-bottom: 10vh;
+			h1 {
+				font-size: 3em;
+				margin-bottom: 10vh;
+			}
+
+			span {
+				padding-bottom: 8px;
+				border-bottom: 3px solid white;
+			}
+
+			p {
+				width: 100%;
+				font-size: 1em;
+			}
 		}
 
-		span {
-			padding-bottom: 8px;
-			border-bottom: 3px solid white;
-		}
-
-		p {
+		#home-frameworks-intro {
+			padding: 0;
 			width: 100%;
-			font-size: 1em;
-		}
-	}
+			margin: 0 auto;
+			margin-top: 5vh;
+			margin-bottom: 10vh;
 
-	#home-frameworks-intro {
-		width: 100%;
-		margin: 0 auto;
-		margin-top: 5vh;
-		margin-bottom: 10vh;
+			#home-frameworks-intro-image {
+				margin-right: 0;
+				text-align: left;
 
-		#home-frameworks-intro-image {
-			margin-right: 0;
-			text-align: left;
+				img {
+					width: 50%;
+				}
+			}
 
-			img {
-				width: 50%;
+			.line-divider {
+				display: none;
+			}
+
+			#home-frameworks-intro-text {
+
+				h2 {
+					margin-top: 0;
+				}
 			}
 		}
 
-		.line-divider {
-			display: none;
-		}
-
-		#home-frameworks-intro-text {
-
-			h2 {
-				margin-top: 0;
-			}
+		#projects-section {
+			padding: 20px;
 		}
 	}
-
-}
+}	

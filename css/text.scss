@@ -1,7 +1,11 @@
 ---
 ---
-@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Overpass:300,400,600,700&display=swap');
 @import 'variables.scss';
+
+body {
+	font-family: 'Overpass';
+}
 
 h1 {
 	font-size: calc(30px + 5vw);
@@ -17,6 +21,14 @@ h3 {
 	font-size: 2.5vw;
 }
 
+h4 {
+	font-size: calc(15px + 1.5vw);
+}
+
+h5 {
+	font-size: calc(10px + 1.5vw);
+}
+
 p, li {
 	line-height: 8vh;
 	font-size: calc(0.2em + 1vw);
@@ -24,7 +36,7 @@ p, li {
 
 ul {
 	margin-bottom: 10vh;
-	padding-left: 3em;
+	padding-left: calc(20px + 1vw);
 }
 
 

@@ -93,17 +93,26 @@
 
 @media screen and (max-width: $breakpoint) {
 	#projects-section {
+
+		padding: 0;
+
+		.line-divider {
+			margin-left: 0;
+		}
 		
 		#projects-intro {
 			margin-bottom: 0;
+			padding: 0;
 		}
 
 		#project-filters {
 			display: none;
+			padding: 0;
 		}
 
 		#project-grid {
 			display: flex;
+			padding: 0;
 
 			.project-card {
 				width: 100%;

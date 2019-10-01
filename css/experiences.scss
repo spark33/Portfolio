@@ -29,6 +29,10 @@
 				margin-top: 5vh;
 				margin-bottom: 10vh;
 
+				a {
+					border-bottom: none;
+				}
+
 				li {
 					line-height: 4vh;
 					margin: 5vh 0;
@@ -38,12 +42,12 @@
 
 					small {
 						display: block;
-						font-size: 0.8vw;
+						font-size: calc(10px + 0.2vw);
 					}
 
 					h5 {
 						margin: 0;
-						font-size: 1.5vw;
+						font-size: calc(10px + 0.5vw);
 					}
 
 					&.active {
@@ -81,7 +85,75 @@
 	}
 
 	#projects-section {
-		padding: 0;
 		margin-top: 20vh;
 	}
+}
+
+@media screen and (max-width: $breakpoint) {
+
+	.experience-main {
+		#experiences {
+			padding: 0;
+
+			#experiences-sidebar {
+				padding: 0;
+
+				> a {
+					display: none;
+					// width: fit-content;
+				}
+
+				#experience-list {
+					flex: 7 0 0;
+					display: flex;
+					margin: 0;
+					margin-top: 30px;
+					border-right: none;
+					border-bottom: 1px solid $light-grey;
+					overflow-x: scroll;
+
+					a {
+						display: flex;
+					}
+
+					.experience-sidebar-link {
+						margin: 0;
+						margin-right: 30px;
+						padding: 0;
+						text-align: center;
+						width: 35vw;
+						overflow-y: visible;
+
+						h5 {
+							margin-bottom: 0;
+							vertical-align: bottom;
+						}
+
+						&.active {
+
+							&:after {
+								height: 6px;
+								width: 100%;
+								top: calc(100% - 1px);
+								left: 0;
+							}
+						}
+					}
+				}
+			}
+
+			#experiences-body {
+				padding: 0;
+
+				img {
+					max-width: 100%;
+				}
+			}
+		}
+
+		#projects-section {
+			margin-top: 0;
+		}
+	}
+
 }
