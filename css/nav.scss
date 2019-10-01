@@ -10,13 +10,25 @@ body.nav-open { // don't scroll when the mobile nav is open
 header {
 	display: flex;
 	justify-content: space-between;
-	padding: 5vh 3vw;
+	padding: 5vh 2vw;
 
 	#logo {
 		border: none;
 		height: 40px;
 		padding: 0;
 		margin: 5px;
+
+		img {
+			display: none;
+		}
+
+		h3 {
+			display: inline;
+			line-height: 43px;
+			vertical-align: super;
+			margin-left: 10px;
+			color: $blue;
+		}
 	}
 
 	nav {

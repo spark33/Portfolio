@@ -5,6 +5,8 @@
 
 .experience-main {
 	padding: 10vh 5vw;
+	padding-bottom: 0;
+	margin-bottom: 5vh;
 
 	.line-divider {
 		background: $blue;
@@ -83,10 +85,6 @@
 			}
 		}
 	}
-
-	#projects-section {
-		margin-top: 20vh;
-	}
 }
 
 @media screen and (max-width: $breakpoint) {
@@ -122,7 +120,7 @@
 						margin-right: 30px;
 						padding: 0;
 						text-align: center;
-						width: 35vw;
+						width: 200px;
 						overflow-y: visible;
 
 						h5 {

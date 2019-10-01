@@ -16,12 +16,21 @@
 	.project-header-info {
 		flex: 1 0 0;
 		align-self: flex-end;
-		padding: 10vh 5vw 5vh 3vw;
+		padding: 10vh 2vw 5vh 3vw;
+
+		h2 {
+			margin-bottom: 0;
+		}
+
+		p {
+			margin-top: 0;
+			font-style: italic;
+		}
 	}
 
 	.project-header-image {
 		position: relative;
-		flex: 4 0 0;
+		flex: 2 0 0;
 		overflow: hidden;
 
 		img {
@@ -45,6 +54,23 @@
 
 			:first-child {
 				margin-top: 5px;
+			}
+
+			.project-sidebar-field {
+				margin-bottom: 3vh;
+
+				small {
+					color: $text-light-grey;
+				}
+
+				p {
+					line-height: inherit;
+					margin: 0;
+
+					a {
+						border: none;
+					}
+				}
 			}
 		}
 

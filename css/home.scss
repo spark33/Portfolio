@@ -10,7 +10,7 @@
 #home-banner {
 
 	#home-banner-slider {
-		margin-top: 5vh;
+		margin-top: 8vh;
 	}
 
 	.slides {
@@ -33,7 +33,7 @@
 
 			.banner-slide-content {
 				display: flex;
-				padding: 3% 10%;
+				padding: 2% 10%;
 				width: 100%;
 
 				.banner-slide-text {
@@ -94,11 +94,10 @@
 }
 
 #home-frameworks-intro {
+	padding: 5vh 5vw;
 	display: flex;
-	width: 80%;
 	margin: 0 auto;
-	margin-top: 15vh;
-	margin-bottom: 10vh;
+	margin-bottom: 5vh;
 
 	.line-divider {
 		background: $blue;
@@ -154,6 +153,12 @@
 
 							.banner-slide-text {
 								display: block;
+								padding: 30px;
+								padding-top: 0;
+
+								h2 {
+									font-size: 2em;
+								}
 							}
 
 							.banner-slide-image {
@@ -163,7 +168,7 @@
 								img {
 									position: unset;
 									transform: none;
-									width: 100%;
+									width: 80%;
 								}
 							}
 						}

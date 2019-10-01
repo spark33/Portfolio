@@ -1,16 +1,24 @@
 <div class="project-sidebar-field">
-	<h5>Duration</h5>
+	<small>Duration</small>
 	<p>{{ page.duration }}</p>
 </div>
 <div class="project-sidebar-field">
-	<h5>Duration</h5>
-	<p>{{ page.duration }}</p>
+	<small>Team</small>
+	<p>
+		{% for member in page.team %}
+			<a {% if member.link %} href="{{ member.link }}" {% endif %}>
+				{{ member.name }}
+			</a>
+			<br />
+		{% endfor %}
+	</p>
 </div>
 <div class="project-sidebar-field">
-	<h5>Duration</h5>
-	<p>{{ page.duration }}</p>
-</div>
-<div class="project-sidebar-field">
-	<h5>Duration</h5>
-	<p>{{ page.duration }}</p>
+	<small>Keywords</small>
+	<p>
+		{% for skill in page.skills %}
+			{{ skill }}
+			<br />
+		{% endfor %}
+	</p>
 </div>
