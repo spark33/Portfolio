@@ -85,7 +85,7 @@ header {
 
 @media screen and (max-width: $breakpoint) {
 	header {
-		padding: 10px;
+		padding: 20px;
 		nav > a:not(.nav-toggle) {
 			display: none;
 		}

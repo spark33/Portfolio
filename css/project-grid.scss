@@ -106,6 +106,7 @@
 		
 		#projects-intro {
 			margin-bottom: 0;
+			padding: 20px;
 		}
 
 		#project-filters {
@@ -133,6 +134,10 @@
 					@include transition(0.4s);
 				}
 			}
+		}
+
+		#other-websites {
+			padding: 20px;
 		}
 	}
 }

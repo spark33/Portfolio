@@ -136,6 +136,7 @@
 
 			.slider {
 				padding: 0;
+				margin-top: 40px;
 
 				.slides {
 					padding: 0;
@@ -164,6 +165,7 @@
 							.banner-slide-image {
 								display: block;
 								position: unset;
+								text-align: center;
 								
 								img {
 									position: unset;
@@ -207,7 +209,7 @@
 				text-align: left;
 
 				img {
-					width: 50%;
+					width: 80%;
 				}
 			}
 
@@ -221,10 +223,6 @@
 					margin-top: 0;
 				}
 			}
-		}
-
-		#projects-section {
-			padding: 20px;
 		}
 	}
 }	
