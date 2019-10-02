@@ -14,9 +14,9 @@ header {
 
 	#logo {
 		border: none;
-		height: 40px;
+		// height: 40px;
 		padding: 0;
-		margin: 5px;
+		// margin: 5px;
 
 		img {
 			display: none;
@@ -24,9 +24,9 @@ header {
 
 		h3 {
 			display: inline;
-			line-height: 43px;
+			line-height: 40px;
 			vertical-align: super;
-			margin-left: 10px;
+			// margin-left: 10px;
 			color: $blue;
 		}
 	}
@@ -90,11 +90,11 @@ header {
 			display: none;
 		}
 
-		.logo {
-			padding: 3px;
-			> img {
-				width: 60px;
-			}
+		#logo {
+			margin-top: 5px;
+			// > img {
+			// 	width: 60px;
+			// }
 		}
 		
 		.nav-toggle {

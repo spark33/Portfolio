@@ -32,6 +32,10 @@ a {
 	padding: 0;
 }
 
+.mobile-only {
+	display: none;
+}
+
 @import 'text.css';
 @import 'nav.css';
 @import 'slider.css';
@@ -50,6 +54,10 @@ a {
 
 	.not-on-mobile {
 		display: none;
+	}
+
+	.mobile-only {
+		display: block;
 	}
 
 	.full-width-on-mobile {
