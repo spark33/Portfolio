@@ -126,6 +126,7 @@
 
 		#project-grid {
 			display: flex;
+			// padding: 20px;
 
 			.project-card {
 				width: 100%;
@@ -133,7 +134,7 @@
 				max-width: none;
 				display: flex;
 				padding: 0;
-				margin-bottom: 3vh;
+				// margin-bottom: 3vh;
 
 				.project-card-default {
 					min-height: inherit;
