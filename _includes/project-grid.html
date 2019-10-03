@@ -13,6 +13,7 @@
 		<a type="button" data-filter=".software-development">Software Development</a>
 		<a type="button" data-filter=".ux-design">UX Design</a>
 		<a type="button" data-filter=".digital-strategy">Digital Strategy</a>
+		<a type="button" data-filter=".visual-design">Visual Design</a>
 	</div>
 
 	<div id="project-grid">
@@ -27,6 +28,9 @@
 				<a class="project-card-hover" {% if project.finished %} href='{{ project.url }}' {% endif %}>
 					<h3>{{ project.name }}</h3>
 					<p>{{ project.question }}</p>
+					{% if project.finished == false %}
+						<p><b><i>Coming Soon!</i></b></p>
+					{% endif %}
 				</a>
 			</div>
 		{% endfor %}
@@ -47,4 +51,7 @@
 			</li>
 		</ul>
 	</div>
+
+	<img id="project-line1" class="line" src="{{ site.baseurl }}/img/line7.png" />
+	<img id="project-line2" class="line" src="{{ site.baseurl }}/img/line4.png" />
 </section>

@@ -1,16 +1,16 @@
 ---
 layout: project
 name: Lane Construction
-subtitle: A data dashboard that
-question: Coming Soon!
+subtitle: Minimizing stakeholder complaints through informational transparency
 finished: false
-# question: How can large-scale decision making optimize the candidate selection process?
+question: How can service companies interface with their final stakeholders?
 description: Test description
 featured: false
 color: ed4c57
 order: 7
 filters:
 - ux-design
+- visual-design
 - digital-strategy
 ---
 

@@ -36,6 +36,11 @@ a {
 	display: none;
 }
 
+.line {
+	position: absolute;
+	max-width: 10vw;
+}
+
 @import 'text.css';
 @import 'nav.css';
 @import 'slider.css';

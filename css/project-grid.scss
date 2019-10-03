@@ -5,6 +5,17 @@
 
 #projects-section {
 	padding: 5vh 5vw;
+	position: relative;
+
+	#project-line1 {
+		right: 0;
+		top: 80%;
+	}
+
+	#project-line2 {
+		left: 0;
+		top: 100%;
+	}
 
 	.line-divider {
 		background: $blue;
@@ -58,7 +69,7 @@
 					min-height: inherit;
 					box-sizing: border-box;
 					img {
-						width: 50%;
+						width: 60%;
 						top: 50%;
 						left: 50%;
 						position: absolute;

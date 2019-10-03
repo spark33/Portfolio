@@ -1,16 +1,16 @@
 ---
 layout: project
 name: Scrapbook
-subtitle: A data dashboard that
+subtitle: Automating logistics of disposing chemical waste
 finished: false
-question: Coming Soon!
-# question: How can large-scale decision making optimize the candidate selection process?
+question: How can biohazardous waste pickup smarter?
 description: Test description
 featured: false
 color: 34434d
 order: 6
 filters:
 - ux-design
+- visual-design
 - digital-strategy
 ---
 

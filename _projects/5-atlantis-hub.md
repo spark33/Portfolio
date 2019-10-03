@@ -3,8 +3,7 @@ layout: project
 name: Atlantis Hub
 finished: false
 subtitle: A 'fun' data interface with personality
-question: Coming Soon!
-# question: What needs do users and businesses have, and how can design convey personality?
+question: How can design convey a business brand and personality?
 description: Test description
 featured: false
 color: eff7fa

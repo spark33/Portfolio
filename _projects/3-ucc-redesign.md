@@ -10,7 +10,7 @@ order: 3
 color: C8F5F4
 filters:
 - ux-design
-- digital-strategy
+- visual-design
 - software-development
 ---
 

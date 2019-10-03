@@ -9,6 +9,7 @@ order: 2
 filters:
 - ux-design
 - digital-strategy
+- visual-design
 
 question: How can large-scale decision making optimize the candidate selection process?
 description: Test description

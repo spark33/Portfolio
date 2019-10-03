@@ -9,6 +9,23 @@
 
 #home-banner {
 
+	position: relative;
+
+	#line1 {
+		left: 0;
+		top: 70%;
+	}
+
+	#line2 {
+		right: 0;
+		top: 10%;
+	}
+
+	#line3 {
+		right: 0;
+		top: 85%;
+	}
+
 	#home-banner-slider {
 		margin-top: 8vh;
 	}
@@ -97,7 +114,23 @@
 	padding: 5vh 5vw;
 	display: flex;
 	margin: 0 auto;
-	margin-bottom: 5vh;
+	margin-bottom: 10vh;
+	position: relative;
+
+	#line4 {
+		right: 0;
+		top: 0%;
+	}
+
+	#line5 {
+		left: 0;
+		top: 90%;
+	}
+
+	#line6 {
+		right: 0;
+		top: 110%;
+	}
 
 	.line-divider {
 		background: $blue;
