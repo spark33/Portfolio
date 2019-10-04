@@ -15,6 +15,7 @@ filters:
 duration: 4 months
 team:
 - name: Allison Mui
+  link: https://allisonmui.github.io
 - name: Steven Ji
   link: https://stevenji.com
 - name: Cathy Dong
@@ -25,4 +26,15 @@ skills:
 - Prototyping
 ---
 
-<h1>This is the DSG University project!</h1>
+## Dick's Sporting Goods University is a digital service designed to push DICK's forward as the leading authority in youth sports.
+
+<div class="one-two-column-layout">
+	<div>
+		<img src="{{ site.baseurl }}/img/{{ page.name }}-grid.png" />
+	</div>
+	<div>
+		<p>
+			Our team worked with Dick's Sporting Goods to design a service catered to the coach persona to expand on their existing services that were geared more towards the athlete persona.
+		</p>
+	</div>
+</div>

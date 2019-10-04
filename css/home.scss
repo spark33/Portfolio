@@ -3,6 +3,11 @@
 
 @import 'variables.scss';
 
+#default-layout-main-site {
+	display: none;
+	@include transition(0.3s);
+}
+
 #home-header {
 	padding-bottom: 0;
 }

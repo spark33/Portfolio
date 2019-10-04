@@ -41,6 +41,21 @@ a {
 	max-width: 10vw;
 }
 
+.loader-wrapper {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background: white;
+	z-index: 999;
+}
+
+@import 'loader.css';
 @import 'text.css';
 @import 'nav.css';
 @import 'slider.css';
