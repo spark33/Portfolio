@@ -2,7 +2,7 @@
 layout: project
 name: RideSystems
 subtitle: 
-question: How can a retail company stay competitive by targeting new user personas?
+question: How can we increase public engagement levels with live information sharing?
 finished: false
 description: Augmenting Existing User Transportation Decision-Making with CMU Shuttle Information 
 featured: false
