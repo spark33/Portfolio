@@ -202,3 +202,22 @@ $color7: #29AEED;
   -webkit-animation: shadow-r-n .425s ease-in-out infinite alternate;
   animation: shadow-r-n .425s ease-in-out infinite alternate;
 }
+
+@media screen and (max-width: $breakpoint) {
+
+  #loader {
+    width: auto;
+  }
+
+  .swing > div {
+    width: 20px;
+    height: 20px;
+    padding: 0;
+  }
+
+  .shadow > div {
+    width: 20px;
+    padding: 0;
+  }
+
+}

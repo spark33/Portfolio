@@ -5,6 +5,7 @@
 
 #default-layout-main-site {
 	display: none;
+	padding: 0;
 	@include transition(0.1s);
 }
 
@@ -37,10 +38,6 @@
 
 	.slides {
 
-		> a {
-			border: none;
-		}
-
 		.slide {
 			padding: 0 5vw;
 
@@ -55,7 +52,7 @@
 
 			.banner-slide-content {
 				display: flex;
-				padding: 2% 10%;
+				padding: 4% 10%;
 				width: 100%;
 
 				.banner-slide-text {
@@ -66,7 +63,11 @@
 					padding-right: 2vw;
 
 					h2 {
-						margin-bottom: 2vh;
+						margin: 0;
+					}
+
+					p {
+						margin-bottom: 3vh;
 					}
 				}
 
@@ -81,6 +82,29 @@
 						@include transform(translate(-50%, -50%));
 						max-width: 100%;
 						max-height: 100%;
+					}
+				}
+			}
+
+			#intro-slide-content {
+				.banner-slide-image {
+					flex: 3 0 0;
+
+					img {
+						max-width: 100%;
+					}
+				}
+
+				.banner-slide-text {
+					flex: 7 0 0;
+					padding-left: 4%;
+
+					h4 {
+						margin-bottom: 20px;
+					}
+
+					p {
+						width: 90%;
 					}
 				}
 			}
@@ -112,6 +136,7 @@
 
 	p {
 		font-size: 1.5vw;
+		width: 80%;
 	}
 
 }
@@ -186,14 +211,29 @@
 						.banner-slide-background {
 							width: 90%;
 							left: 5%;
+							padding: 0;
 						}
 
 						.banner-slide-content{
 							flex-direction: column-reverse;
 
+							&#intro-slide-content {
+								flex-direction: column;
+
+								.banner-slide-text {
+									p {
+										width: 100%;
+									}
+								}
+
+								.banner-slide-image {
+									margin-bottom: 30px;
+								}
+							}
+
 							.banner-slide-text {
 								display: block;
-								padding: 30px;
+								padding: 0;
 								padding-top: 0;
 
 								h2 {
@@ -205,11 +245,12 @@
 								display: block;
 								position: unset;
 								text-align: center;
+								padding: 0;
 								
 								img {
 									position: unset;
 									transform: none;
-									width: 80%;
+									width: 100%;
 								}
 							}
 						}

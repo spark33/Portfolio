@@ -41,6 +41,14 @@ a {
 	max-width: 10vw;
 }
 
+.button {
+	background: $blue;
+	color: white;
+	padding: 5px 10px;
+	border: none;
+	width: fit-content;
+}
+
 @import 'loader.css';
 @import 'text.css';
 @import 'nav.css';
@@ -75,6 +83,7 @@ a {
 	.line {
 		position: absolute;
 		max-width: 20vw;
+		display: none;
 	}
 
 	section, div {

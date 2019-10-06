@@ -36,15 +36,15 @@
 		a {
 			border: 2px solid $blue;
 			border-radius: 0.5vw;
-			background: $blue;
-			color: white;
+			background: white;
+			color: $blue;
 			padding: 1vh 1vw;
 			margin-right: 1vw;
 			cursor: pointer;
 
 			&.mixitup-control-active {
-				background: white;
-				color: $blue;
+				background: $blue;
+				color: white;
 			}
 		}
 	}
@@ -61,16 +61,39 @@
 			min-height: 350px;
 			position: relative;
 
-			.project-card-default {
+			.project-card-background {
+
+				.overlay, img {
+					position: absolute;
+					left: 0;
+					top: 0;
+					width: 100%;
+					height: 100%;
+				}
+
+				img {
+					z-index: 2;
+				}
+
+				.overlay {
+					z-index: 3;
+					opacity: 0.75;
+				}
+			}
+
+			.project-card-image {
 				height: 100%;
+				z-index: 4;
 				text-align: center;
 				position: relative;
+				@include transition(0.6s);
+
 				.imgwrap {
 					min-height: inherit;
 					box-sizing: border-box;
 					img {
-						max-width: 60%;
-						max-height: 80%;
+						max-width: 75%;
+						max-height: 75%;
 						top: 50%;
 						left: 50%;
 						position: absolute;
@@ -79,25 +102,41 @@
 				}
 			}
 
-			.project-card-hover {
+			.project-card-hover, .project-card-background {
 				position: absolute;
 				width: 100%;
 				height: 100%;
-				background-color: rgba(0,0,0,0.8);
 				background-blend-mode: multiply;
 				top: 0;
 				left: 0;
-				opacity: 0;
-				color: white; 
 				border: none;
-				padding: 5% 10%;
 				box-sizing: border-box;
 				@include transition(0.4s);
 			}
 
-			&:hover > .project-card-hover {
-				opacity: 1;
+			.project-card-hover {
+				opacity: 0;
+				z-index: 5;
+				color: white; 
+				padding: 5% 10%;
+				background-color: rgba(0,0,0,0.8);
 			}
+
+			&:hover {
+				.project-card-hover {
+					opacity: 1;
+				}
+
+				.project-card-image {
+					transform: scale(1.2);
+				}
+			}
+		}
+	}
+
+	#other-websites {
+		li {
+			margin: 10px 0;
 		}
 	}
 }
@@ -127,7 +166,6 @@
 
 		#project-grid {
 			display: flex;
-			// padding: 20px;
 
 			.project-card {
 				width: 100%;
@@ -135,10 +173,10 @@
 				max-width: none;
 				display: flex;
 				padding: 0;
-				// margin-bottom: 3vh;
 
-				.project-card-default {
-					min-height: inherit;
+				.project-card-image {
+					// min-height: inherit;
+					display: none;
 				}
 
 				.project-card-hover {

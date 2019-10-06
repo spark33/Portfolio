@@ -32,8 +32,8 @@ h5 {
 }
 
 p, li {
-	line-height: 8vh;
 	font-weight: 200;
+	line-height: calc(1em + 1.5vw);
 	font-size: calc(0.2em + 1vw);
 }
 
@@ -67,6 +67,7 @@ ul {
 
 	p,a,li {
 		font-size: 1em;
+		line-height: 2em;
 	}
 
 	small {

@@ -1,33 +1,49 @@
 <section id="home-banner">
 	<div id="home-banner-slider" class="slider">
 		<div id="banner-slider-slides" class="slides">
+			<div class="home-banner-slide slide">
+				<div class="banner-slide-background" ></div>
+				<div id="intro-slide-content" class="banner-slide-content">
+					<div class="banner-slide-image">
+						<img src="{{ site.baseurl }}/img/me.JPG" />
+					</div>
+					<div class="banner-slide-text">
+						<h2>Hi, I'm Sean.</h2>
+						<h4>Product Developer from Carnegie Mellon.</h4>
+						<p>I brand myself as a "product developer" because I've handled all stages of product work from UX design to full-stack software development.
+						<br />
+						Swipe or scroll to learn more about my projects. Thanks for stopping by! </p>
+					</div>
+				</div>
+			</div>
 			{% assign projects = site.projects | sort: 'order' %}
 			{% for project in projects %}
 				{% if project.featured == true %}
-					<a href="{{ project.url }}">
-						<div class="home-banner-slide slide">
-							<div class="banner-slide-background" ></div>
-							<div class="banner-slide-content">
-								<div class="banner-slide-text">
-									<h2>
-										{{ project.subtitle }}
-									</h2>
-									<p>
-										{{ project.question }}
-									</p>
-								</div>
-								<div class="banner-slide-image">
-									<img src="{{ site.baseurl }}/img/{{ project.name }}-banner.png" />
-								</div>
+					<div class="home-banner-slide slide">
+						<div class="banner-slide-background" ></div>
+						<div class="banner-slide-content">
+							<div class="banner-slide-text">
+								<h2>
+									{{ project.subtitle }}
+								</h2>
+								<p>
+									{{ project.question }}
+								</p>
+								<a class="button" href="{{ project.url }}">View Details</a>
+							</div>
+							<div class="banner-slide-image">
+								<img src="{{ site.baseurl }}/img/{{ project.name }}-banner.png" />
 							</div>
 						</div>
-					</a>
+					</div>
 				{% endif %}
 			{% endfor %}
 		</div>
-		<a href id="home-banner-prev-button" class="slider-prev-button"><</a>
+		<!-- <a href id="home-banner-prev-button" class="slider-prev-button"><</a> -->
 		<a href id="home-banner-next-button" class="slider-next-button">></a>
 		<div id="home-banner-slider-dots" class="slider-dots">
+			<!-- one dot for the intro slide -->
+			<div class="slider-dot"></div>
 			{% for project in site.projects %}
 				{% if project.featured == true %}
 					<div class="slider-dot"></div>
