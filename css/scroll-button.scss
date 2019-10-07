@@ -107,7 +107,7 @@
 		}
 
 		.slider-prev-button {
-			left: 2.5% !important;
+			left: calc(5% - 36px) !important;
 		}
 	}
 }
