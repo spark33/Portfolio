@@ -31,7 +31,12 @@
 	}
 
 	.slider-prev-button {
+		display: none;
 		left: 5%;
+
+		&.active {
+			display: block;
+		}
 	}
 
 	.slider-next-button {

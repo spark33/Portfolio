@@ -48,4 +48,10 @@ function moveSlider(newIndex, slider) {
 	sliderDots.removeClass('active');
 	let activeDot = sliderDots.get(newIndex);
 	$(activeDot).addClass('active');
+
+	if(newIndex > 0) {
+		$('.slider-prev-button').addClass('active');
+	} else {
+		$('.slider-prev-button').removeClass('active');
+	}
 }
