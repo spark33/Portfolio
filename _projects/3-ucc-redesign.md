@@ -3,9 +3,9 @@ layout: project
 name: UCC Redesign
 subtitle: Creating a new identity through rebranding
 question: How can a student organization create a unified, professional identity?
-finished: true
+finished: false
 description: Test description
-featured: true
+featured: false
 order: 3
 color: C8F5F4
 filters:

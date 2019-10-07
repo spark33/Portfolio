@@ -33,7 +33,7 @@
 								<p>
 									{{ project.question }}
 								</p>
-								<a class="button" href="{{ project.url }}">View Details</a>
+								<a class="button" href="{{ project.url }}">View Project</a>
 							</div>
 							<div class="banner-slide-image">
 								<img src="{{ site.baseurl }}/img/{{ project.name }}-banner.png" />
@@ -43,8 +43,8 @@
 				{% endif %}
 			{% endfor %}
 		</div>
-		<a href id="home-banner-prev-button" class="slider-prev-button"><</a>
-		<a href id="home-banner-next-button" class="slider-next-button">></a>
+		<a id="home-banner-prev-button" class="slider-button slider-prev-button"><span></span></a>
+		<a id="home-banner-next-button" class="slider-button slider-next-button"><span></span><span></span><span></span></a>
 		<div id="home-banner-slider-dots" class="slider-dots">
 			<!-- one dot for the intro slide -->
 			<div class="slider-dot"></div>
