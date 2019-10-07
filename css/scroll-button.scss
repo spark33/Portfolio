@@ -75,3 +75,39 @@
 		opacity: 0;
 	}
 }
+
+
+@media screen and (max-width: $breakpoint) {
+
+	.slider {
+
+		.slider-button span {
+			border-width: 3px;
+			z-index: 900;
+			opacity: 1;
+		}
+
+		.slider-next-button {
+
+			right: 5%;
+
+			span {
+				animation: none;
+				-webkit-animation: none;
+				right: 20px;
+
+				&:nth-of-type(2) {
+					display: none;
+				}
+
+				&:nth-of-type(3) {
+					display: none;
+				}
+			}
+		}
+
+		.slider-prev-button {
+			left: 2.5% !important;
+		}
+	}
+}
