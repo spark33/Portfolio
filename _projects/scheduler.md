@@ -6,7 +6,7 @@ finished: false
 question: How do we automate shift changes for students with unpredictable schedules?
 description: Test description
 featured: false
-color: 5CAAD9
+color: 71AEF0
 order: 4
 filters:
 - ux-design

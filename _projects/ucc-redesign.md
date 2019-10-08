@@ -7,7 +7,7 @@ finished: false
 description: Test description
 featured: false
 order: 3
-color: C8F5F4
+color: 133F6E
 filters:
 - ux-design
 - visual-design

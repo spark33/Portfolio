@@ -6,7 +6,12 @@ $('.slider').each(function() {
 	let slider = $(this); 
 	let numSlides = slider.find('.slides').children().length;
 	$.data(this, 'numSlides', numSlides);
-	$(this).find('.slides').css('width', numSlides * 100 + 'vw');
+	for (i = 0; i < numSlides; i++) {
+	  let newDot = $("<div>", {"class": "slider-dot"});
+	  $(this).find('.slider-dots').append(newDot);
+	}
+
+	$(this).find('.slides').css('width', numSlides * 100 + '%');
 
 	let firstDot = slider.find('.slider-dot').get(0);
 	$(firstDot).addClass('active');
@@ -40,8 +45,10 @@ $('.slider-prev-button').click(function(e){
 
 function moveSlider(newIndex, slider) {
 	$.data(slider[0], 'currentSlide', newIndex);
-	let slideAmount = newIndex * -100;
-	let transformProp = 'translateX(' + slideAmount + 'vw)';
+	let numSlides = $.data(slider[0], 'numSlides');
+	let slideAmount = newIndex * (-100 / numSlides);
+	// let slideAmount = newIndex * -100;
+	let transformProp = 'translateX(' + slideAmount + '%)';
 	slider.find('.slides').css('transform', transformProp);
 
 	let sliderDots = slider.find('.slider-dot');

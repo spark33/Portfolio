@@ -44,9 +44,18 @@
 
 .project-main {
 
+	a {
+		color: $blue;
+		border: none;
+
+		&:hover {
+			opacity: 0.5;
+		}
+	}
+
 	.project-content {
 		display: flex;
-		padding: 15vh 0;
+		padding: 15vh 5vw;
 		
 		.project-sidebar {
 			flex: 1 0 0;
@@ -76,9 +85,12 @@
 
 		.project-main-body {
 			flex: 4 0 0;
-			padding: 0 8vw 5vh 4vw;
+			padding: 0 8vw 5vh 6vw;
 
-			:nth-child(2) {
+			// first child is mobile only divider
+			// the first image or text should have no margin-top
+			// to line up with the top of the sidebar
+			> :nth-child(2) {
 				margin-top: 0;
 			}
 
@@ -86,20 +98,55 @@
 				max-width: 100%;
 			}
 
-			.one-two-column-layout {
+			.project-slider {
+				width: 100%;
+
+				.slide {
+					text-align: center;
+					img {
+						width: 90%;
+						margin: 0 5%;
+					}
+				}
+			}
+
+			.two-column {
+				width: 100%;
 				display: flex;
 
 				> * {
-					display: flex;
-				}
-
-				> :first-child {
 					flex: 1 0 0;
+					padding: 10px;
 				}
 
 				> :nth-child(2) {
-					flex: 2 0 0;
-					padding-left: 4vw;
+					margin-left: 50px;
+				}
+			}
+
+			h5 {
+				margin-bottom: 0;
+			}
+
+			p > small {
+				display: block;
+				font-weight: 600;
+				margin-bottom: 5vh 0 0 0;
+			}
+
+			img {
+				margin: 3vh 0;
+			}
+
+			blockquote {
+				margin-left: 0;
+				padding: 6px 20px;
+				border-left: 6px solid $blue;
+
+				i {
+					display: block;
+					margin-top: 5px;
+					color: $text-light-grey;
 				}
 			}
 		}
@@ -134,10 +181,30 @@
 					margin-bottom: 0;
 				}
 			}
-		}
 
-		.line-divider {
-			background: $blue;
+			.project-main-body {
+
+				padding: 20px;
+
+				// first child is mobile only divider
+				// the first image or text should have no margin-top
+				// to line up with the top of the sidebar
+				> :nth-child(2) {
+					margin-top: 5vh;
+				}
+
+				.two-column {
+					padding: 0;
+
+					> * {
+						flex: auto;
+					}
+				}
+			}
+
+			.line-divider {
+				background: $blue;
+			}
 		}
 	}
 }

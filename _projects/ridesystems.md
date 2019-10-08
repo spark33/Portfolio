@@ -6,7 +6,7 @@ question: How can we increase public engagement levels with live information sha
 finished: false
 description: Augmenting Existing User Transportation Decision-Making with CMU Shuttle Information 
 featured: false
-color: C9E3FF
+color: 71AEF0
 order: 5
 filters:
 - ux-design

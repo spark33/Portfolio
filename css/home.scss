@@ -34,6 +34,41 @@
 
 	#home-banner-slider {
 		margin-top: 8vh;
+		width: 100vw;
+		margin-bottom: 10vh;
+
+		#home-banner-prev-button {
+			left: 5%;
+		}
+
+		#home-banner-next-button {
+			right: 10%;
+
+			> span {
+
+				-webkit-animation: blink 2s infinite;
+				animation: blink 2s infinite;
+				opacity: 0;
+
+				&:nth-of-type(1) {
+					left: 16px;
+					-webkit-animation-delay: 0s;
+					animation-delay: 0s;
+				}
+
+				&:nth-of-type(2) {
+					left: 32px;
+					-webkit-animation-delay: .15s;
+					animation-delay: .15s;
+				}
+
+				&:nth-of-type(3) {
+					left: 48px;
+					-webkit-animation-delay: .3s;
+					animation-delay: .3s;
+				}
+			}
+		}
 	}
 
 	.slides {
@@ -194,6 +229,19 @@
 				margin-right: 1vw;
 			}
 		}
+	}
+}
+
+// used by home banner slider's next button
+@keyframes blink {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
 	}
 }
 

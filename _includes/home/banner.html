@@ -46,13 +46,6 @@
 		<a id="home-banner-prev-button" class="slider-button slider-prev-button"><span></span></a>
 		<a id="home-banner-next-button" class="slider-button slider-next-button"><span></span><span></span><span></span></a>
 		<div id="home-banner-slider-dots" class="slider-dots">
-			<!-- one dot for the intro slide -->
-			<div class="slider-dot"></div>
-			{% for project in site.projects %}
-				{% if project.featured == true %}
-					<div class="slider-dot"></div>
-				{% endif %}
-			{% endfor %}
 		</div>
 	</div>
 	<img id="line1" class="line not-on-mobile" src="{{ site.baseurl }}/img/line1.png" />

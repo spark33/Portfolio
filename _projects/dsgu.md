@@ -3,11 +3,11 @@ layout: project
 name: DSG University
 subtitle: Innovating on shifting a client away from retail
 question: How can a retail company stay competitive by targeting new user personas?
-finished: true
+finished: false
 description: Test description
-featured: true
-color: e7f78d
-order: 1
+featured: false
+color: 2887ED
+order: 2
 filters:
 - ux-design
 - digital-strategy

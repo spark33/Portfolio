@@ -21,7 +21,6 @@
 		{% for project in projects %}
 			<div class="mix project-card {% for f in project.filters %} {{ f }} {% endfor %}" data-order="{{ project.order }}">
 				<div class="project-card-background">
-					<img src="{{ site.baseurl }}/img/{{ project.name }}-gridbg.png" />
 					<div class="overlay" style="background: #{{ project.color }};"></div>
 				</div>
 				<div class="project-card-image">

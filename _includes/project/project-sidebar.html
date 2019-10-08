@@ -6,9 +6,13 @@
 	<small>Team</small>
 	<p>
 		{% for member in page.team %}
-			<a {% if member.link %} href="{{ member.link }}" {% endif %}>
+			{% if member.link %}
+				<a href="{{ member.link }}">
+					{{ member.name }}
+				</a>
+			{% else %}
 				{{ member.name }}
-			</a>
+			{% endif %}
 			<br />
 		{% endfor %}
 	</p>
@@ -19,6 +23,14 @@
 		{% for skill in page.skills %}
 			{{ skill }}
 			<br />
+		{% endfor %}
+	</p>
+</div>
+<div class="project-sidebar-field">
+	<small>Final Deliverables</small>
+	<p>
+		{% for deliverable in page.deliverables %}
+			<a href="{{ deliverable.link }}" target="_blank">{{ deliverable.name }}</a>
 		{% endfor %}
 	</p>
 </div>

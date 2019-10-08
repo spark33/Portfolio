@@ -6,7 +6,7 @@ finished: false
 question: How can service companies interface with their final stakeholders?
 description: Test description
 featured: false
-color: ed4c57
+color: 34506E
 order: 7
 filters:
 - ux-design

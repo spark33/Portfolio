@@ -6,7 +6,7 @@ finished: false
 question: How can biohazardous waste pickup smarter?
 description: Test description
 featured: false
-color: 34434d
+color: 206ABA
 order: 6
 filters:
 - ux-design
