@@ -22,7 +22,7 @@ skills:
 - Visual Design
 - Prototyping
 deliverables:
-- name: inVision Prototype
+- name: Hi-fi inVision Prototype
   link: https://projects.invisionapp.com/share/86OVNMGQ9UN#/screens/328779598_Home
 - name: Presentation
   link: https://docs.google.com/presentation/d/1tfjfqCQnSq6NHi5LoQcow_V86qcDEWar3MVMiIE_Chw/edit#slide=id.p
@@ -30,7 +30,7 @@ deliverables:
 
 ### Higher decentralizes the inefficiencies of hiring process using an online platform, making processes smarter, faster and fairer.
 
-My Information Systems capstone team was tasked with designing / prototyping an innovation that would target the next <a href="http://ideagenius.com/the-s-curve-pattern-of-innovation-a-full-analysis/" target="_blank">'S-curve'</a> of an industry. We moved through this project in 5 main phases, starting with problem identification.
+My Information Systems capstone team worked with Deloitte mentors to design / prototype an innovation that would target the next <a href="http://ideagenius.com/the-s-curve-pattern-of-innovation-a-full-analysis/" target="_blank">'S-curve'</a> of an industry. We moved through this project in 5 main phases, starting with problem identification.
 
 ##### What problem did we solve?
 
@@ -84,47 +84,42 @@ Given our limited time, we had to prioritize the tasks to prototype. We created 
 
 <img src="{{ site.baseurl }}/img/Higher-2.png" />
 
-We chose to design lo-fi wireframes for the review, comparison and evaluation steps. We then made a clickable prototype on inVision and conducted some basic interviews with professional with HR experience on the value that this platform would provide.
+We chose to design lo-fi wireframes for the review, comparison and evaluation steps. We then made a clickable prototype on inVision and conducted some basic interviews with professional with HR experience on the value that this platform would provide. Overall, we received overwhelmingly positive feedback:
 
-<div class="two-column">
-	<div class="slider project-slider">
-		<div class="slides">
-			<div class="slide">
-				<img src="{{ site.baseurl }}/img/Higher-3-1.png" />
-			</div>
-			<div class="slide">
-				<img src="{{ site.baseurl }}/img/Higher-3-2.png" />
-			</div>
-			<div class="slide">
-				<img src="{{ site.baseurl }}/img/Higher-3-3.png" />
-			</div>
-			<div class="slide">
-				<img src="{{ site.baseurl }}/img/Higher-3-4.png" />
-			</div>
+<!-- <div class="slider project-slider">
+	<div class="slides">
+		<div class="slide">
+			<img src="{{ site.baseurl }}/img/Higher-3-1.png" />
 		</div>
-		<!-- <div class="slider-dots">
-		</div> -->
-		<a class="slider-button slider-prev-button"><span></span></a>
-		<a class="slider-button slider-next-button"><span></span></a>
+		<div class="slide">
+			<img src="{{ site.baseurl }}/img/Higher-3-2.png" />
+		</div>
+		<div class="slide">
+			<img src="{{ site.baseurl }}/img/Higher-3-3.png" />
+		</div>
+		<div class="slide">
+			<img src="{{ site.baseurl }}/img/Higher-3-4.png" />
+		</div>
 	</div>
-	<div>
-
-		<h5>User Feedback</h5>
-
-		<blockquote>
-			I like that the decision has been narrowed down to two applications-- as a user, that would be much easier than picking 1 from 20.
-			<i>- Hiring designer at fashion startup</i>
-		</blockquote>
-		<blockquote>
-			It feels like I'm getting just the information I need at each stage. Feels clean.
-			<i>- News startup founder</i>
-		</blockquote>
-		<blockquote>
-			I like that I can get many eyes on an application before a decision is made. More eyes, more objectivity.
-			<i>- Consulting hiring project manager</i>
-		</blockquote>
+	<div class="slider-dots">
 	</div>
-</div>
+	<a class="slider-button slider-prev-button"><span></span></a>
+	<a class="slider-button slider-next-button"><span></span></a>
+</div> -->
+
+<blockquote>
+	I like that the decision has been narrowed down to two applications-- as a user, that would be much easier than picking 1 from 20.
+	<i>- Hiring designer at fashion startup</i>
+</blockquote>
+<blockquote>
+	It feels like I'm getting just the information I need at each stage. Feels clean.
+	<i>- News startup founder</i>
+</blockquote>
+<blockquote>
+	I like that I can get many eyes on an application before a decision is made. More eyes, more objectivity.
+	<i>- Consulting hiring project manager</i>
+</blockquote>
+
 
 While we received positive responses overall, we also got some critical feedback to push us forward to the hi-fi stage.
 

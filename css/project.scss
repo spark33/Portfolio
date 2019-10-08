@@ -103,6 +103,7 @@
 
 				.slide {
 					text-align: center;
+					padding-bottom: 0;
 					img {
 						width: 90%;
 						margin: 0 5%;
@@ -198,6 +199,7 @@
 
 					> * {
 						flex: auto;
+						margin-left: 0 !important;
 					}
 				}
 			}
