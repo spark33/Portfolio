@@ -137,6 +137,11 @@
 				color: white; 
 				padding: 5% 10%;
 				background-color: rgba(0,0,0,0.8);
+
+				a.button {
+					background: white;
+					color: transparent;
+				}
 			}
 
 			&:hover {
@@ -198,6 +203,7 @@
 				}
 
 				.project-card-hover {
+					padding: 5%;
 					opacity: 1;
 					background-color: rgba(0,0,0,0.3);
 					@include transition(0.4s);

@@ -32,7 +32,7 @@ deliverables:
 
 My Information Systems capstone team worked with Deloitte mentors to design / prototype an innovation that would target the next <a href="http://ideagenius.com/the-s-curve-pattern-of-innovation-a-full-analysis/" target="_blank">'S-curve'</a> of an industry. We moved through this project in 5 main phases, starting with problem identification.
 
-##### What problem did we solve?
+#### What problem did we solve?
 
 Because the project wasn't scoped, we didn't know what industry to target. To narrow down, we decided to choose a domain we knew personally as college students-- the job application process.
 
@@ -66,7 +66,7 @@ Based on our <a href="https://ideal.com/ai-recruiting/" target="_blank">research
 
 Many companies and news outlets called the <a href="https://www.cnbc.com/2017/08/11/how-goldman-sachs-is-pursuing-the-holy-grail-of-hiring.html" target="_blank">"holy grail"</a> of recruitment: how quickly can you pick the best candidate in the haystack of resumes?
 
-##### Step 2: Defining the solution
+#### Step 2: Defining the solution
 
 We found that companies like <a href="https://www.reuters.com/article/us-amazon-com-jobs-automation-insight/amazon-scraps-secret-ai-recruiting-tool-that-showed-bias-against-women-idUSKCN1MK08G" target="_blank">Amazon had tried to innovate in this space</a> and failed spectacularly because they had tried to fully automate the process. We learned that **full automation may not be feasible**, and explored other avenues of innovation.
 
@@ -78,7 +78,7 @@ We found a solution in designing a *human-data-driven decision-making process* t
 
 We decided to combine these two research topics together. Once we had our solution, we jumped straight into designing wireframes to test with professionals in the HR industry.
 
-##### Step 3: Lo-fi + Testing
+#### Step 3: Lo-fi + Testing
 
 Given our limited time, we had to prioritize the tasks to prototype. We created a user flow for the main user story that resulted in a decision about a candidate to assess key tasks.
 
@@ -123,7 +123,7 @@ We chose to design lo-fi wireframes for the review, comparison and evaluation st
 
 While we received positive responses overall, we also got some critical feedback to push us forward to the hi-fi stage.
 
-##### Step 4: Hi-fi + Value Prop
+#### Step 4: Hi-fi + Value Prop
 
 In our hi-fi phase, we added color, data visualizations and supplementary screens to complete the user journey. You can explore our inVision prototype <a href="https://projects.invisionapp.com/share/86OVNMGQ9UN#/screens/328779598_Home" target="_blank">here</a>.
 

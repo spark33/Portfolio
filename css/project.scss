@@ -160,7 +160,18 @@
 
 		.project-header-info {
 			padding: 20px;
-			padding-bottom: 80px;
+
+			h2 {
+				margin-bottom: 40px;
+			}
+
+			p {
+				margin: 40px 0;
+			}
+
+			h5 {
+				margin: 40px 0;
+			}
 		}
 
 		.project-header-image {
