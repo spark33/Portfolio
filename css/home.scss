@@ -132,9 +132,14 @@
 
 				.banner-slide-text {
 					flex: 2 0 0;
-					padding-left: 4%;
+					padding-left: 2%;
+
+					h2 {
+						margin-bottom: 0;
+					}
 
 					h4 {
+						margin-top: 10px;
 						margin-bottom: 20px;
 					}
 

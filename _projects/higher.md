@@ -28,7 +28,7 @@ deliverables:
   link: https://docs.google.com/presentation/d/1tfjfqCQnSq6NHi5LoQcow_V86qcDEWar3MVMiIE_Chw/edit#slide=id.p
 ---
 
-### Higher decentralizes the inefficiencies of hiring process using an online platform, making processes smarter, faster and fairer.
+### Higher decentralizes the hiring process using an online platform, making processes smarter, faster and fairer.
 
 My Information Systems capstone team worked with Deloitte mentors to design / prototype an innovation that would target the next <a href="http://ideagenius.com/the-s-curve-pattern-of-innovation-a-full-analysis/" target="_blank">'S-curve'</a> of an industry. We moved through this project in 5 main phases, starting with problem identification.
 
