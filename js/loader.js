@@ -1,11 +1,13 @@
 $(window).on("load",function(){
-	setTimeout(function() {
-		$('.loader-wrapper > h4').addClass('active');
-	}, 2500);
-	setTimeout(function() {
-		$(".loader-wrapper").addClass('hidden');
-		$("#default-layout-main-site").css('display', 'block');
-	}, 3000);
+	if(msieversion()) {
+		setTimeout(function() {
+			$('.loader-wrapper > h4').addClass('active');
+		}, 2500);
+		setTimeout(function() {
+			$(".loader-wrapper").addClass('hidden');
+			$("#default-layout-main-site").css('display', 'block');
+		}, 3000);
+	}
 });
 
 $(document).ready(msieversion);
@@ -21,7 +23,8 @@ function msieversion() {
 	    $('.loader-wrapper').append(ieMessage);
 
 	    window.stop();
+	    return false;
     }
 
-    return false;
+    return true;
 }
