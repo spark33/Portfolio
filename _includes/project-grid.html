@@ -28,7 +28,6 @@
 				<a class="project-card-hover" {% if project.finished %} href='{{ project.url }}' {% endif %}>
 					<h3>{{ project.name }}</h3>
 					<p>{{ project.question }}</p>
-					<br/>
 					{% if project.finished == false %}
 						<p><b><i>Coming Soon!</i></b></p>
 					{% else %}
