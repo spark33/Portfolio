@@ -1,5 +1,5 @@
 $(window).on("load",function(){
-	if(!msieversion()) {
+	if(!isIE()) {
 		setTimeout(function() {
 			$('.loader-wrapper > h4').addClass('active');
 		}, 2500);
@@ -10,9 +10,7 @@ $(window).on("load",function(){
 	}
 });
 
-$(document).ready(msieversion);
-
-function msieversion() {
+function isIE() {
 
     var ua = window.navigator.userAgent;
     var msie = ua.indexOf("MSIE ");
@@ -23,8 +21,8 @@ function msieversion() {
 	    $('.loader-wrapper').append(ieMessage);
 
 	    window.stop();
-	    return false;
+	    return true;
     }
 
-    return true;
+    return false;
 }
