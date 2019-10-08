@@ -1,5 +1,5 @@
 $(window).on("load",function(){
-	if(msieversion()) {
+	if(!msieversion()) {
 		setTimeout(function() {
 			$('.loader-wrapper > h4').addClass('active');
 		}, 2500);
