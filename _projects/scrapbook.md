@@ -7,7 +7,7 @@ question: How can biohazardous waste pickup smarter?
 description: Test description
 featured: false
 color: 206ABA
-order: 6
+order: 9
 filters:
 - ux-design
 - visual-design

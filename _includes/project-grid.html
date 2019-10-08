@@ -20,10 +20,7 @@
 		{% assign projects = site.projects | sort: 'order' %}
 		{% for project in projects %}
 			<div class="mix project-card {% for f in project.filters %} {{ f }} {% endfor %}" data-order="{{ project.order }}">
-				<div class="project-card-background">
-					<div class="overlay" style="background: #{{ project.color }};"></div>
-				</div>
-				<div class="project-card-image">
+				<div class="project-card-image" style="background: #{{ project.color }};">
 					<div class="imgwrap">
 						<img src="{{ site.baseurl }}/img/{{ project.name }}-grid.png" />
 					</div>

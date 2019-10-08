@@ -7,7 +7,7 @@ finished: false
 description: Augmenting Existing User Transportation Decision-Making with CMU Shuttle Information 
 featured: false
 color: 71AEF0
-order: 5
+order: 8
 filters:
 - ux-design
 - ux-research
