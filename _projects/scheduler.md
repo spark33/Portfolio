@@ -10,7 +10,6 @@ color: 71AEF0
 order: 4
 filters:
 - ux-design
-- digital-strategy
 - software-development
 ---
 

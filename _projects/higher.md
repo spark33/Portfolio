@@ -8,8 +8,7 @@ featured: true
 order: 1
 filters:
 - ux-design
-- digital-strategy
-- visual-design
+- innovation
 
 question: How can large-scale decision making optimize the candidate selection process?
 

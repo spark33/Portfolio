@@ -11,7 +11,7 @@ order: 7
 filters:
 - ux-design
 - visual-design
-- digital-strategy
+- innovation
 ---
 
 <h1>This is the Higher project!</h1>

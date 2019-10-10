@@ -10,7 +10,7 @@ color: 0B80D4
 order: 3
 filters:
 - ux-design
-- digital-strategy
+- innovation
 ---
 
 <h1>This is the Higher project!</h1>

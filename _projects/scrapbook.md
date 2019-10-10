@@ -10,8 +10,7 @@ color: 206ABA
 order: 9
 filters:
 - ux-design
-- visual-design
-- digital-strategy
+- innovation
 ---
 
 <h1>This is the Higher project!</h1>

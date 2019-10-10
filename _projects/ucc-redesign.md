@@ -10,7 +10,6 @@ order: 3
 color: 133F6E
 filters:
 - ux-design
-- visual-design
 - software-development
 ---
 

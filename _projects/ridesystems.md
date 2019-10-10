@@ -10,7 +10,6 @@ color: 71AEF0
 order: 8
 filters:
 - ux-design
-- ux-research
 
 duration: 3 months
 team:

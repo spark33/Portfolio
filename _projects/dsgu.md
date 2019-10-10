@@ -10,7 +10,7 @@ color: 2887ED
 order: 2
 filters:
 - ux-design
-- digital-strategy
+- innovation
 
 duration: 4 months
 team:
