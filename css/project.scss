@@ -154,16 +154,21 @@
 				margin: 5vh 0;
 			}
 
+			.image {
+				text-align: center;
+			}
+
 			img {
-				margin: 3vh 0 auto;
+				margin: 0 auto;
 				max-width: 100%;
 			}
 
-			img + em {
+			img + p {
 				display: block;
+				margin-top: 0;
 				color: $text-light-grey;
 				text-align: center;
-				text-transform: italic;
+				font-style: italic;
 			}
 
 			iframe {

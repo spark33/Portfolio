@@ -32,7 +32,7 @@ Dick's Sporting Goods is the biggest sports retail company in the US. Now, they 
 
 After evaluating over 40 ideas and fully prototyping 5 ideas, we concluded that Dick's Sporting Goods University is a concept that is desirable, feasible and viable for all key stakeholders, including DICK's. Today, the client has established a team to carry this idea forward.
 
-<img src="{{ site.baseurl }}/img/DSG University-1.png" />
+{% include project-image.html src='img/DSG University-1.png' description='' %}
 
 #### Project Overview
 
@@ -44,7 +44,7 @@ The client came to us with an open problem statement, to say the least:
 
 They knew **coaches** were central to the athletes' experiences, but they didn't have any offerings to target them. They defined this breakdown using their 'mastery loop' model:
 
-<img src="{{ site.baseurl }}/img/DSG University-3.png" />
+{% include project-image.html src='img/DSG University-3.png' description='The mastery loop describes the journey of a typical athlete / customer' %}
 
 Young athletes get **curious** about new sports and techniques all the time. As they learn more, they get **excited**, and they take this excitement to the DSG store. Purchasing equipment makes them **confident**, and **mastery** in their new sport / technique leads them to new curiosities, completing a cyclic journey.
 
@@ -62,7 +62,7 @@ We found that DSG University would not only deliver better experiences for athle
 
 Below I summarize my team's journey through these 15 weeks. We summarized our process using as a variation of the famous double diamond model:
 
-<img src="{{ site.baseurl }}/img/DSG University-4.png" />
+{% include project-image.html src='img/DSG University-4.png' description='The team diverged and converged countless times throughout the project.' %}
 
 #### Phase 1: Initial Research
 
@@ -74,11 +74,9 @@ As the team didn't have any prior experience in sports retail, we started with <
 	<b>Synthesis methods:</b> Affinity diagraming, customer journey map, stakeholder & value flow map
 </blockquote>
 
-<img src="{{ site.baseurl }}/img/DSG University-5.png" />
-*Image caption*
+{% include project-image.html src='img/DSG University-5.png' description='Coaches are at the center of the team, always coordinating with others.' %}
 
-<img src="{{ site.baseurl }}/img/DSG University-6.png" />
-*Image caption*
+{% include project-image.html src='img/DSG University-6.png' description="We were able to find parallels with DSG's mastery loop. Most athletes drive their own purchases." %}
 
 While we drew some helpful insights, we didn't feel that they were focused enough. There were thousands of different 'kinds' of coaches, based on the sport, athletes' age group, level of competition, etc. We began to see coaches as more of a **'persona group'**, and felt lost on which persona to focus on. We altered our timeline and dove into another research phase.
 
@@ -87,15 +85,14 @@ While we drew some helpful insights, we didn't feel that they were focused enoug
 To find a focus, we felt we needed to pick the group that would drive the most value to the client. We read up on Dick’s Sporting Goods' direction as a company and overall industry trends.
 
 <blockquote>
-	Research methods: Literature reviews, competitive analysis
+	<b>Research methods:</b> Literature reviews, competitive analysis
 	<br />
-	Synthesis methods: Business potential overview
+	<b>Synthesis methods:</b> Business potential overview
 </blockquote>
 
 As an industry leader, Dick's Sporting Goods already had a model for the landscape called the **"double peak hypothesis"**.
 
-<img src="{{ site.baseurl }}/img/DSG University-7.png" />
-*Image caption*
+{% include project-image.html src='img/DSG University-7.png' description='Youth athletes and their parents make up most of the sports retail market.' %}
 
 Kids love sports. However, the pressure of academics and employment pushes out of sports until they become parents, and they find sports to be a good way to connect with their kids. 
 
@@ -148,13 +145,11 @@ This phase can be split into two sub-phases: ideation / rapid prototyping in div
 
 ##### Phase 4A: Ideation
 
-<img src="{{ site.baseurl }}/img/DSG University-8.png" />
-*Image caption*
+{% include project-image.html src='img/DSG University-8.png' description='From offline to online, no ideas are bad in the ideation phase!<br/> Our wackiest idea included parents being coached by the kids.' %}
 
 Based on the 4 pain points from phase 3, the team rapidly ideated 40+ ideas and found some trends in the ideas. We picked 8 ideas that seemed to capture these trends and conducted 5 speed dating sessions with storyboards.
 
-<img src="{{ site.baseurl }}/img/DSG University-9.png" />
-*Image caption*
+{% include project-image.html src='img/DSG University-9.png' description='Speed dating sessions were coordinated with youth athletes and their parents.' %}
 
 These sessions gave us 5 key insights:
 
@@ -176,8 +171,7 @@ The only problem was that each of our 5 team members liked a different idea. We 
 
 We did this through a *"pitch battle"* format, where each of us scoped out the targeted pain points, value for main stakeholders, key features, 3 low-fi wireframes, feasibility, success criteria, timeline, and challenges for each idea.
 
-<img src="{{ site.baseurl }}/img/DSG University-10.png" />
-*Image caption*
+{% include project-image.html src='img/DSG University-10.png' description='Me pitching DSG University to my teammates!' %}
 
 In the end, we chose DSG University for its:
 
@@ -189,15 +183,17 @@ In the end, we chose DSG University for its:
 
 We took this winning pitch to our client and conducted a co-design session to figure out how this project could look in the end.
 
-<img src="{{ site.baseurl }}/img/DSG University-11.gif" />
-*Image caption*
+{% include project-image.html src='img/DSG University-11.gif' description="Co-design session with DSG's designers" %}
 
 We then took all the ideas from our meeting and diverged once more, sketching multiple versions of lo-fi screens.
 
-<img src="{{ site.baseurl }}/img/DSG University-12.gif" />
-*Image caption*
+{% include project-image.html src='img/DSG University-12.gif' description='Just some of our countless lo-fi iterations.' %}
 
-We then met as a team to consolidate all screens, then iterated a countless number of times to arrive at our final prototype. Below is the prototype walkthrough section of our final presentation.
+We then met as a team to consolidate all screens, then iterated a countless number of times to arrive at our final prototype. 
+
+#### Final Solution Walkthrough
+
+Below is the prototype walkthrough section of our final presentation.
 
 <iframe src="https://www.youtube.com/embed/QLSqHljFUE4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
