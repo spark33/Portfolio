@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
 	let projectHeaders = $('.project-main-body h4');
-	let projectTOC = $('.project-sidebar > #table-of-contents');
+	let projectTOC = $('.project-sidebar > #table-of-contents > p');
 
 	projectHeaders.each(function() {
 
@@ -13,8 +13,8 @@ $(document).ready(function() {
 	});
 
 	// Scroll to section animation
-	
-	$("a[href*=#]").click(function(e) {
+
+	$("a[href^=#]").click(function(e) {
 		e.preventDefault();
 		let page = "/" + $(this).attr('href').split('#')[0];
 		let hash = '#' + $(this).attr('href').split('#')[1];

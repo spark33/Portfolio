@@ -24,6 +24,9 @@ skills:
 - UX Research Interviews
 - Visual Design
 - Prototyping
+deliverables:
+- name: inVision Prototype
+  link: https://invis.io/8TRQA1FMVCN#/360169104_3_-_featured_page
 ---
 
 ### Dick's Sporting Goods University is a web / mobile experience designed to digitize a coach’s clipboard.
