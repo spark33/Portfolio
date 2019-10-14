@@ -62,7 +62,6 @@ Based on our <a href="https://ideal.com/ai-recruiting/" target="_blank">research
 - **56%** of Talent Acquisition leaders in 2017 said that their hiring volume will increase in 2018.
 - **66%** of Talent Acquisition leaders in 2017 said their recruiting teams are staying the same in size in 2018.
 
-
 Many companies and news outlets called the <a href="https://www.cnbc.com/2017/08/11/how-goldman-sachs-is-pursuing-the-holy-grail-of-hiring.html" target="_blank">"holy grail"</a> of recruitment: how quickly can you pick the best candidate in the haystack of resumes?
 
 #### Phase 2: Defining the solution

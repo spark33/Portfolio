@@ -18,8 +18,6 @@ $(document).ready(function() {
 		e.preventDefault();
 		let page = "/" + $(this).attr('href').split('#')[0];
 		let hash = '#' + $(this).attr('href').split('#')[1];
-
-		console.log(hash);
 		
 		$('html, body').animate({
 			scrollTop: $(hash).offset().top
