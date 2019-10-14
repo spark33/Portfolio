@@ -7,7 +7,7 @@ question: How do we automate shift changes for students with unpredictable sched
 description: Test description
 featured: false
 color: 71AEF0
-order: 4
+order: 6
 filters:
 - ux-design
 - software-development

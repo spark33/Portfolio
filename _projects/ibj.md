@@ -7,7 +7,7 @@ question: How can e-commerce be customized to a store with just a few, seasonal 
 description: Test description
 featured: false
 color: 0B80D4
-order: 3
+order: 4
 filters:
 - ux-design
 - innovation

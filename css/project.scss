@@ -8,6 +8,7 @@
 	display: flex;
 	padding: 0;
 	min-height: 80vh;
+	box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 	.line-divider {
 		background: $blue;
@@ -44,19 +45,19 @@
 
 .project-main {
 
-	a {
-		color: $blue;
-		border: none;
-
-		&:hover {
-			opacity: 0.5;
-		}
-	}
-
 	.project-content {
 		display: flex;
 		padding: 15vh 5vw;
-		
+
+		a {
+			color: $blue;
+			border: none;
+
+			&:hover {
+				opacity: 0.5;
+			}
+		}
+			
 		.project-sidebar {
 			flex: 1 0 0;
 			text-align: right;
@@ -81,6 +82,15 @@
 					}
 				}
 			}
+
+			#table-of-contents {
+				position: sticky;
+				top: 5vh;
+
+				a {
+					display: block;
+				}
+			}
 		}
 
 		.project-main-body {
@@ -92,10 +102,6 @@
 			// to line up with the top of the sidebar
 			> :nth-child(2) {
 				margin-top: 0;
-			}
-
-			img {
-				max-width: 100%;
 			}
 
 			.project-slider {
@@ -125,6 +131,15 @@
 				}
 			}
 
+			h3 {
+				margin-top: 5vh;
+				margin-bottom: 0;
+			}
+
+			h4 {
+				margin-bottom: 0;
+			}
+
 			h5 {
 				margin-bottom: 0;
 			}
@@ -135,8 +150,26 @@
 				margin-bottom: 5vh 0 0 0;
 			}
 
+			ol {
+				margin: 5vh 0;
+			}
+
 			img {
-				margin: 3vh 0;
+				margin: 3vh 0 auto;
+				max-width: 100%;
+			}
+
+			img + em {
+				display: block;
+				color: $text-light-grey;
+				text-align: center;
+				text-transform: italic;
+			}
+
+			iframe {
+				width: 100%;
+				min-height: 400px;
+				margin: 5vh 0;
 			}
 
 			blockquote {

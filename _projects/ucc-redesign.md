@@ -6,7 +6,7 @@ question: How can a student organization create a unified, professional identity
 finished: false
 description: Test description
 featured: false
-order: 3
+order: 5
 color: 133F6E
 filters:
 - ux-design

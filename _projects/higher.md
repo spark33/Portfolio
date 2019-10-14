@@ -5,14 +5,14 @@ subtitle: Designing the job applications of the future.
 finished: true
 color: 71AEF0
 featured: true
-order: 1
+order: 2
 filters:
 - ux-design
 - innovation
 
 question: How can large-scale decision making optimize the candidate selection process?
 
-duration: 4 months
+duration: 2 months
 team:
 - name: Devin Fan
 - name: Rich Zhu
@@ -27,11 +27,11 @@ deliverables:
   link: https://docs.google.com/presentation/d/1tfjfqCQnSq6NHi5LoQcow_V86qcDEWar3MVMiIE_Chw/edit#slide=id.p
 ---
 
-### Higher decentralizes the hiring process using an online platform, making processes smarter, faster and fairer.
+## Higher decentralizes the hiring process using an online platform, making processes smarter, faster and fairer.
 
 My Information Systems capstone team worked with Deloitte mentors to design / prototype an innovation that would target the next <a href="http://ideagenius.com/the-s-curve-pattern-of-innovation-a-full-analysis/" target="_blank">'S-curve'</a> of an industry. We moved through this project in 5 main phases, starting with problem identification.
 
-#### What problem did we solve?
+#### Step 1: What problem are we solving?
 
 Because the project wasn't scoped, we didn't know what industry to target. To narrow down, we decided to choose a domain we knew personally as college students-- the job application process.
 
@@ -154,6 +154,24 @@ The final project and all of its research was presented in a <a href="https://do
 	<a class="slider-button slider-prev-button"><span></span></a>
 	<a class="slider-button slider-next-button"><span></span></a>
 </div>
+
+Below is a summary of the solution presented:
+
+<blockquote>
+	<a href="https://ideal.com/ai-recruiting/" target="_blank">52% of talent acquisition leaders agree</a> that the toughest challenge with hiring is selecting the best candidate from a pool of applications. The process is not only long and expensive, but also sometimes biased and ineffective.
+
+	<br/><br/>
+
+	Take a large corporation with multiple offices around the country. At each office, a recruiting team sits around a table discusses the applications one by one. The consideration of each application slowly becomes driven by the preferences of those sitting around the table, and the dynamics of the discussion.
+
+	<br/><br/>
+
+	Higher digitizes this ineffective discussion into a fair, streamlined, voting process. It allows employees around the world to log on, review applications and vote for the better of two candidates.
+
+	<br/><br/>
+
+	Involving more decision-makers removes biases, and digitzing the experience generates data that HR professionals can leverage to make effective decisions.
+</blockquote>
 
 The final presentation was a success and one of our Deloitte mentors, who knew I had interned at Deloitte, suggested that I consider exploring this idea further as an initiative within the firm! I will be considering this possibility further as I get settled into life at the company.
 
