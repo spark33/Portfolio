@@ -7,10 +7,26 @@ body.nav-open { // don't scroll when the mobile nav is open
 	overflow: hidden;
 }
 
+main {
+	margin-top: $nav-height;
+}
+
 header {
 	display: flex;
+	width: 100vw;
 	justify-content: space-between;
-	padding: 5vh 2vw;
+	padding: 2vw;
+	height: $nav-height;
+	position: fixed;
+	top: 0;
+	z-index: 999;
+	background: rgba(255,255,255,0.9);
+
+	@include transition(0.5s);
+
+	&.nav-up {
+		top: -1 * $nav-height;
+	}
 
 	#logo {
 		border: none;
@@ -25,6 +41,7 @@ header {
 		h3 {
 			display: inline;
 			line-height: 40px;
+			margin: 0;
 			vertical-align: super;
 			// margin-left: 10px;
 			color: $blue;
@@ -32,6 +49,9 @@ header {
 	}
 
 	nav {
+
+		justify-content: flex-end;
+		align-items: stretch;
 
 		a {
 			margin: 0 2vw;

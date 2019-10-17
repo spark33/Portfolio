@@ -9,6 +9,7 @@ $light-grey: #DADADA;
 $error-red: #de3535;
 $success-green: #d5f5d7;
 $breakpoint: 960px;
+$nav-height: 12vh;
 
 @mixin transition($transition, $important: null) {
     -moz-transition:    $transition $important;

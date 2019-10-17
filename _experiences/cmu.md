@@ -11,7 +11,7 @@ I graduated in May 2019 with majors in Information Systems and Human-Computer In
 
 Professionally, I was involved with 6 different campus jobs, notably as a web developer for the Eberly Educational Tech center and as a personnel manager for the computer lab management services.
 
-I've also had the chance to work with many clients in the area through my involvement with AT Kearney Student Lab program, Human-Computer Interaction Institute, and the Undergraduate Consulting Club and Information Systems program..
+I've also had the chance to work with many clients in the area through my involvement with AT Kearney Student Lab program, Human-Computer Interaction Institute, the Undergraduate Consulting Club and Information Systems program..
 
 - Platypus LLC
 - Hoot Book Revival
