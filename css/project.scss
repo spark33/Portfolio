@@ -61,6 +61,7 @@
 		.project-sidebar {
 			flex: 1 0 0;
 			text-align: right;
+			font-size: 0.6em;
 
 			:first-child {
 				margin-top: 5px;
@@ -225,6 +226,7 @@
 				text-align: left;
 				padding: 0;
 				padding-bottom: 40px;
+				font-size: 1em;
 
 				.project-sidebar-field {
 					padding-bottom: 0;
