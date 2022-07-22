@@ -4,6 +4,7 @@ title: Sean Park
 # Contact
 phone: "(412) 265 - 8129" # This is my real number. You should text me.
 email: "seanpark1107@gmail.com" # This is my real email address. Please don't email me.
+baseurl: /website-v2
 
 exclude: [.scss, README.md, node_modules, gruntfile.js, package.json]
 
