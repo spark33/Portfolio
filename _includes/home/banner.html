@@ -2,17 +2,18 @@
 	<div id="home-banner-slider" class="slider">
 		<div id="banner-slider-slides" class="slides">
 			<div class="home-banner-slide slide">
-				<div class="banner-slide-background" ></div>
+				<div class="banner-slide-background"></div>
 				<div id="intro-slide-content" class="banner-slide-content">
 					<div class="banner-slide-image">
-						<img src="{{ site.baseurl }}/img/me.JPG" />
+						<img src="{{ site.baseurl }}/website-v2/img/me.JPG" />
 					</div>
 					<div class="banner-slide-text">
 						<h2>Hi, I'm Sean.</h2>
 						<h4>Product Developer at Deloitte Digital.</h4>
 						<p>
-							I brand myself as a "product developer" because I've handled all stages of product work from UX design to full-stack development.
-						<br/>
+							I brand myself as a "product developer" because I've handled all stages of product work from UX design to
+							full-stack development.
+							<br />
 							<span>
 								Swipe or scroll down to learn more about my projects!
 							</span>
@@ -22,25 +23,25 @@
 			</div>
 			{% assign projects = site.projects | sort: 'order' %}
 			{% for project in projects %}
-				{% if project.featured == true %}
-					<div class="home-banner-slide slide">
-						<div class="banner-slide-background" ></div>
-						<div class="banner-slide-content">
-							<div class="banner-slide-text">
-								<h2>
-									{{ project.subtitle }}
-								</h2>
-								<p>
-									{{ project.question }}
-								</p>
-								<a class="button" href="{{ project.url }}">View Project</a>
-							</div>
-							<div class="banner-slide-image">
-								<img src="{{ site.baseurl }}/img/{{ project.name }}-banner.png" />
-							</div>
-						</div>
+			{% if project.featured == true %}
+			<div class="home-banner-slide slide">
+				<div class="banner-slide-background"></div>
+				<div class="banner-slide-content">
+					<div class="banner-slide-text">
+						<h2>
+							{{ project.subtitle }}
+						</h2>
+						<p>
+							{{ project.question }}
+						</p>
+						<a class="button" href="{{ project.url }}">View Project</a>
 					</div>
-				{% endif %}
+					<div class="banner-slide-image">
+						<img src="{{ site.baseurl }}/website-v2/img/{{ project.name }}-banner.png" />
+					</div>
+				</div>
+			</div>
+			{% endif %}
 			{% endfor %}
 		</div>
 		<a id="home-banner-prev-button" class="slider-button slider-prev-button"><span></span></a>
@@ -48,7 +49,7 @@
 		<div id="home-banner-slider-dots" class="slider-dots">
 		</div>
 	</div>
-	<img id="line1" class="line not-on-mobile" src="{{ site.baseurl }}/img/line1.png" />
-	<img id="line2" class="line" src="{{ site.baseurl }}/img/line3.png" />
-	<img id="line3" class="line not-on-mobile" src="{{ site.baseurl }}/img/line6.png" />
+	<img id="line1" class="line not-on-mobile" src="{{ site.baseurl }}/website-v2/img/line1.png" />
+	<img id="line2" class="line" src="{{ site.baseurl }}/website-v2/img/line3.png" />
+	<img id="line3" class="line not-on-mobile" src="{{ site.baseurl }}/website-v2/img/line6.png" />
 </section>

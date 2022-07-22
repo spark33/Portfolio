@@ -52,7 +52,7 @@ No innovation can be feasible or desirable without targeting specific pain point
 
 We had so many pain points that we didn't know where to start. To organize our pain points, we came up with the following 5-phase framework:
 
-<img src="{{ site.baseurl }}/img/Higher-1.png" />
+<img src="{{ site.baseurl }}/website-v2/img/Higher-1.png" />
 
 We then did a competitive analysis to assess what solutions exist for each phase today:
 
@@ -80,23 +80,23 @@ We decided to combine these two research topics together. Once we had our soluti
 
 Given our limited time, we had to prioritize the tasks to prototype. We created a user flow for the main user story that resulted in a decision about a candidate to assess key tasks.
 
-<img src="{{ site.baseurl }}/img/Higher-2.png" />
+<img src="{{ site.baseurl }}/website-v2/img/Higher-2.png" />
 
 We chose to design lo-fi wireframes for the review, comparison and evaluation steps. We then made a clickable prototype on inVision and conducted some basic interviews with professional with HR experience on the value that this platform would provide. Overall, we received overwhelmingly positive feedback:
 
 <!-- <div class="slider project-slider">
 	<div class="slides">
 		<div class="slide">
-			<img src="{{ site.baseurl }}/img/Higher-3-1.png" />
+			<img src="{{ site.baseurl }}/website-v2/img/Higher-3-1.png" />
 		</div>
 		<div class="slide">
-			<img src="{{ site.baseurl }}/img/Higher-3-2.png" />
+			<img src="{{ site.baseurl }}/website-v2/img/Higher-3-2.png" />
 		</div>
 		<div class="slide">
-			<img src="{{ site.baseurl }}/img/Higher-3-3.png" />
+			<img src="{{ site.baseurl }}/website-v2/img/Higher-3-3.png" />
 		</div>
 		<div class="slide">
-			<img src="{{ site.baseurl }}/img/Higher-3-4.png" />
+			<img src="{{ site.baseurl }}/website-v2/img/Higher-3-4.png" />
 		</div>
 	</div>
 	<div class="slider-dots">
@@ -130,22 +130,22 @@ The final project and all of its research was presented in a <a href="https://do
 <div class="slider project-slider">
 	<div class="slides">
 		<div class="slide">
-			<img src="{{ site.baseurl }}/img/Higher-5-1.png" />
+			<img src="{{ site.baseurl }}/website-v2/img/Higher-5-1.png" />
 		</div>
 		<div class="slide">
-			<img src="{{ site.baseurl }}/img/Higher-5-2.png" />
+			<img src="{{ site.baseurl }}/website-v2/img/Higher-5-2.png" />
 		</div>
 		<div class="slide">
-			<img src="{{ site.baseurl }}/img/Higher-5-3.png" />
+			<img src="{{ site.baseurl }}/website-v2/img/Higher-5-3.png" />
 		</div>
 		<div class="slide">
-			<img src="{{ site.baseurl }}/img/Higher-5-4.png" />
+			<img src="{{ site.baseurl }}/website-v2/img/Higher-5-4.png" />
 		</div>
 		<div class="slide">
-			<img src="{{ site.baseurl }}/img/Higher-5-5.png" />
+			<img src="{{ site.baseurl }}/website-v2/img/Higher-5-5.png" />
 		</div>
 		<div class="slide">
-			<img src="{{ site.baseurl }}/img/Higher-5-6.png" />
+			<img src="{{ site.baseurl }}/website-v2/img/Higher-5-6.png" />
 		</div>
 	</div>
 	<div class="slider-dots">

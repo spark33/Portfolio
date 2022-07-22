@@ -3,8 +3,12 @@
 		<hr class="line-divider" />
 		<h2>Projects</h2>
 		<p>
-			I’ve worked flexibly on projects with various roles. I’ve tried to challenge the notion that having breadth means being a master of none. Check out my past projects for a glimpse of my artifacts and work processes. For a higher level overview, check out my <a href="{{ site.baseurl }}/SeanPark_Resume.pdf" target="_blank">resume</a>.
-			{% if page.type != "experience" %} For my past work experiences, check out my <a href="{{ site.experiences.first.url }}">Past Works</a> page. {% endif %}
+			I’ve worked flexibly on projects with various roles. I’ve tried to challenge the notion that having breadth means
+			being a master of none. Check out my past projects for a glimpse of my artifacts and work processes. For a higher
+			level overview, check out my <a href="{{ site.baseurl }}/website-v2/SeanPark_Resume.pdf"
+				target="_blank">resume</a>.
+			{% if page.type != "experience" %} For my past work experiences, check out my <a
+				href="{{ site.experiences.first.url }}">Past Works</a> page. {% endif %}
 		</p>
 	</div>
 
@@ -18,22 +22,22 @@
 	<div id="project-grid">
 		{% assign projects = site.projects | sort: 'order' %}
 		{% for project in projects %}
-			<div class="mix project-card {% for f in project.filters %} {{ f }} {% endfor %}" data-order="{{ project.order }}">
-				<div class="project-card-image" style="background: #{{ project.color }};">
-					<div class="imgwrap">
-						<img src="{{ site.baseurl }}/img/{{ project.name }}-grid.png" />
-					</div>
+		<div class="mix project-card {% for f in project.filters %} {{ f }} {% endfor %}" data-order="{{ project.order }}">
+			<div class="project-card-image" style="background: #{{ project.color }};">
+				<div class="imgwrap">
+					<img src="{{ site.baseurl }}/website-v2/img/{{ project.name }}-grid.png" />
 				</div>
-				<a class="project-card-hover" {% if project.finished %} href='{{ project.url }}' {% endif %}>
-					<h3>{{ project.name }}</h3>
-					<p>{{ project.question }}</p>
-					{% if project.finished == false %}
-						<p><b><i>Coming Soon!</i></b></p>
-					{% else %}
-						<p><b>Click to view details.</b></p>
-					{% endif %}
-				</a>
 			</div>
+			<a class="project-card-hover" {% if project.finished %} href='{{ project.url }}' {% endif %}>
+				<h3>{{ project.name }}</h3>
+				<p>{{ project.question }}</p>
+				{% if project.finished == false %}
+				<p><b><i>Coming Soon!</i></b></p>
+				{% else %}
+				<p><b>Click to view details.</b></p>
+				{% endif %}
+			</a>
+		</div>
 		{% endfor %}
 	</div>
 
@@ -48,11 +52,12 @@
 				<a href="https://cmusoundbytes.com" target="_blank">CMU Soundbytes A Cappella</a>
 			</li>
 			<li>
-				<a href="https://ecaasuconf2020.com" target="_blank">East Coast Asian American Student Union 2020 Conference @ Pittsburgh</a>
+				<a href="https://ecaasuconf2020.com" target="_blank">East Coast Asian American Student Union 2020 Conference @
+					Pittsburgh</a>
 			</li>
 		</ul>
 	</div>
 
-	<img id="project-line1" class="line not-on-mobile" src="{{ site.baseurl }}/img/line7.png" />
-	<img id="project-line2" class="line" src="{{ site.baseurl }}/img/line4.png" />
+	<img id="project-line1" class="line not-on-mobile" src="{{ site.baseurl }}/website-v2/img/line7.png" />
+	<img id="project-line2" class="line" src="{{ site.baseurl }}/website-v2/img/line4.png" />
 </section>

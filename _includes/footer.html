@@ -3,7 +3,7 @@
 
 
 {% for file in site.static_files %}
-    {% if file.path contains '.js' %}
-        <script src="{{ site.baseurl }}{{ file.path }}"></script>
-    {% endif %}
+{% if file.path contains '.js' %}
+<script src="{{ site.baseurl }}/website-v2{{ file.path }}"></script>
+{% endif %}
 {% endfor %}
